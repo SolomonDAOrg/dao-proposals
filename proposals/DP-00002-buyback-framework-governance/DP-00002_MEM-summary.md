@@ -22,6 +22,8 @@ Updates governance parameters (quorum / approval threshold / voting period / tim
 - proposal_creation_threshold: `[TBD]`
 - any additional parameters: `[TBD]`
 
+---
+
 ### 2. SOLO buyback framework (on-chain)
 
 Authorizes a capped SOLO buyback program funded from DAO treasury, executed under strict constraints and transparent reporting.
@@ -37,9 +39,13 @@ Authorizes a capped SOLO buyback program funded from DAO treasury, executed unde
 
 **Note:** This proposal does not depend on Company formation. It is a DAO treasury action executed on-chain if adopted.
 
+---
+
 ## What comes next (separate proposal)
 
-- **DP-00003:** post-formation activation — grant delegated authority, designate the second multisig as a Company Treasury Account, and move an initial tranche from main treasury into that account.
+- **DP-00003:** post-formation activation -- grant delegated authority, designate the second multisig as a Company Treasury Account, and move an initial tranche from main treasury into that account.
+
+---
 
 ## Links
 

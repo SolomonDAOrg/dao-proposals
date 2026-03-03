@@ -35,31 +35,37 @@ This Resolution is the **post-formation activation** step. It:
 3. Transfers an initial tranche of assets from the main DAO treasury into the Company Treasury Account.  
 4. Imposes minimum mechanical constraints and reporting requirements.
 
+---
+
 ## 2. Operative rule
 
 This is normative text proposed for adoption by Governance System. If (and only if) it is adopted and the Execution Bundle executes successfully, the operative clauses below are effective as stated, **subject to the Formation Condition**.
 
+---
+
 ## 3. Definitions
 
-**"Company"** means SOLOMON DAO LLC.
+1. **"Company"** means SOLOMON DAO LLC.
 
-**"Company Treasury Account"** means a treasury account/vault designated by Governance System as a Company account for Company treasury operations.
+2. **"Company Treasury Account"** means a treasury account/vault designated by Governance System as a Company account for Company treasury operations.
 
-**"Company Treasury Vault"** means the multisig/vault specified in §6.1.
+3. **"Company Treasury Vault"** means the multisig/vault specified in §6.1.
 
-**"Execution Bundle"** means the on-chain transactions that implement the on-chain portions of this Resolution.
+4. **"Execution Bundle"** means the on-chain transactions that implement the on-chain portions of this Resolution.
 
-**"Formation Condition"** means the Company’s formation is legally effective on or before execution of the Execution Bundle.
+5. **"Formation Condition"** means the Company’s formation is legally effective on or before execution of the Execution Bundle.
 
-**"Governance System"** means the on-chain mechanism by which this Resolution is adopted and executed.
+6. **"Governance System"** means the on-chain mechanism by which this Resolution is adopted and executed.
 
-**"Treasury Subcommittee"** means the Company treasury subcommittee contemplated by the Company Agreement framework.
+7. **"Treasury Subcommittee"** means the Company treasury subcommittee contemplated by the Company Agreement framework.
 
-**"Treasury Subcommittee Members"** means the members appointed/designated by governance (DP-00001) and finalized herein if needed.
+8. **"Treasury Subcommittee Members"** means the members appointed/designated by governance (DP-00001) and finalized herein if needed.
 
-**"Treasury Operating Policy"** means the binding constraints in §7 (and any referenced policy annex by hash/link).
+9. **"Treasury Operating Policy"** means the binding constraints in §7 (and any referenced policy annex by hash/link).
 
-**"Undertaking"** means the Treasury Subcommittee confidentiality undertaking.
+10. **"Undertaking"** means the Treasury Subcommittee confidentiality undertaking.
+
+---
 
 ## 4. Formation condition (hard gate)
 
@@ -69,6 +75,8 @@ This is normative text proposed for adoption by Governance System. If (and only 
 - certificate / registry evidence link, and/or
 - content hash/anchor of the formation evidence.
 `[TBD: link or hash]`
+
+---
 
 ## 5. Treasury Subcommittee activation (delegated authority; limited scope)
 
@@ -81,11 +89,13 @@ This is normative text proposed for adoption by Governance System. If (and only 
 ### 5.2 Membership and undertakings
 
 **RESOLVED:** Treasury Subcommittee Members are:
-- Member A: `[name/handle]` — `[wallet]`
-- Member B: `[name/handle]` — `[wallet]`
-- Member C: `[name/handle]` — `[wallet]`
+- Member A: `[name/handle]` -- `[wallet]`
+- Member B: `[name/handle]` -- `[wallet]`
+- Member C: `[name/handle]` -- `[wallet]`
 
 **RESOLVED:** Each Member must have an executed Undertaking as a condition precedent to receiving Confidential Information.
+
+---
 
 ## 6. Company Treasury Account designation (second multisig/vault)
 
@@ -101,6 +111,8 @@ This is normative text proposed for adoption by Governance System. If (and only 
 - threshold: `[TBD]`
 - optional roles/separation: `[TBD: proposer/executor separation if supported]`
 
+---
+
 ## 7. Treasury Operating Policy (binding minimum constraints)
 
 **RESOLVED:** The Treasury Subcommittee’s delegated authority is constrained by the following minimum controls:
@@ -113,13 +125,17 @@ This is normative text proposed for adoption by Governance System. If (and only 
 6. **No leverage:** no borrowing/margin/leverage unless explicitly authorized by governance.  
 7. **Recordkeeping:** every outbound movement must have a recorded rationale and tx reference; exceptions must be flagged.
 
+---
+
 ## 8. Initial treasury transfer into Company Treasury Vault (on-chain)
 
 **RESOLVED:** Subject to the Formation Condition, the Execution Bundle shall transfer the following assets from the main DAO treasury into the Company Treasury Vault:
 
-- asset_1 (mint): `[TBD]` — amount: `[TBD]`
-- asset_2 (mint): `[TBD]` — amount: `[TBD]`
+- asset_1 (mint): `[TBD]` -- amount: `[TBD]`
+- asset_2 (mint): `[TBD]` -- amount: `[TBD]`
 - optional total notional cap: `[TBD]`
+
+---
 
 ## 9. Reporting (binding)
 
@@ -129,6 +145,8 @@ This is normative text proposed for adoption by Governance System. If (and only 
 - executed transactions / identifiers
 - confirmations of policy compliance (caps/allowlists)
 - any incidents / exceptions and remediation
+
+---
 
 ## 10. Execution Bundle scope limitation (binding)
 

@@ -33,25 +33,31 @@ This Resolution does two things:
 1. Updates governance thresholds/parameters (on-chain).  
 2. Authorizes and funds a capped SOLO buyback program (on-chain), with binding constraints and reporting.
 
+---
+
 ## 2. Operative rule
 
 This is normative text proposed for adoption by Governance System. If (and only if) it is adopted and the Execution Bundle executes successfully, the operative clauses below are effective as stated.
 
+---
+
 ## 3. Definitions
 
-**"Buyback Program"** means the capped SOLO buyback program authorized by this Resolution.
+1. **"Buyback Program"** means the capped SOLO buyback program authorized by this Resolution.
 
-**"Buyback Vault"** means the wallet/vault specified in §6.2 that will receive stable funds for buyback operations.
+2. **"Buyback Vault"** means the wallet/vault specified in §6.2 that will receive stable funds for buyback operations.
 
-**"Execution Bundle"** means the on-chain transactions that implement the on-chain portions of this Resolution.
+3. **"Execution Bundle"** means the on-chain transactions that implement the on-chain portions of this Resolution.
 
-**"Governance System"** means the on-chain mechanism by which this Resolution is adopted and executed.
+4. **"Governance System"** means the on-chain mechanism by which this Resolution is adopted and executed.
 
-**"SOLO"** means the SOLO token (mint/address: `[TBD]`).
+5. **"SOLO"** means the SOLO token (mint/address: `SoLo9oxzLDpcq1dpqAgMwgce5WqkRDtNXK7EPnbmeta`).
 
-**"Stable Asset"** means `[USDC or equivalent stable asset]` (mint/address: `[TBD]`).
+6. **"Stable Asset"** means `USDC` (mint/address: `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`).
 
-**"Treasury Executor"** means the existing DAO treasury execution authority that can lawfully execute on-chain treasury operations today (e.g., current treasury multisig / authorized operators under current governance).
+7. **"Treasury Executor"** means the existing DAO treasury execution authority that can lawfully execute on-chain treasury operations today (e.g., current treasury multisig / authorized operators under current governance).
+
+---
 
 ## 4. Governance threshold update (on-chain)
 
@@ -66,41 +72,54 @@ This is normative text proposed for adoption by Governance System. If (and only 
 
 **RESOLVED:** The Threshold Update is effective immediately upon successful execution of the Execution Bundle.
 
+---
+
 ## 5. SOLO buyback authorization (policy + cap)
 
 ### 5.1 Authorization
+
 **RESOLVED:** The DAO authorizes the Buyback Program, subject to the binding constraints in §7.
 
 ### 5.2 Cap and window
+
 **RESOLVED:** The Buyback Program is capped as follows:
 - max spend (Stable Asset): **`[TBD MAX_SPEND]`**
 - program window: `[TBD start date/time]` to `[TBD end date/time]`
 
 ### 5.3 Custody of acquired SOLO
+
 **RESOLVED:** SOLO acquired under the Buyback Program shall be held in:
 - **SOLO Treasury Wallet / Vault:** `[TBD]`
 (or specify that the Buyback Vault will custody SOLO directly: `[TBD]`)
 
+---
+
 ## 6. Buyback Vault funding (on-chain)
 
 ### 6.1 Buyback Vault designation
+
 **RESOLVED:** The Buyback Vault is designated as:
 - **Buyback Vault / Vault ID:** `[TBD address / vault id]`
 
 ### 6.2 Transfer instruction (Execution Bundle)
+
 **RESOLVED:** The Execution Bundle shall transfer up to **`[TBD MAX_SPEND]`** of Stable Asset from DAO treasury to the Buyback Vault.
+
+---
 
 ## 7. Binding execution constraints (must comply)
 
 **RESOLVED:** The Treasury Executor must execute the Buyback Program in compliance with all constraints below:
 
-1) **No leverage:** no borrowing, margin, leverage, or derivatives to implement buybacks.  
-2) **Dispersed execution:** purchases must be dispersed over time (TWAP/DCA).  
-3) **Max order size:** no single purchase may exceed **`[TBD MAX_ORDER_NOTIONAL]`** Stable Asset.  
-4) **Permitted venues/routes:** only the following venues/routes are permitted: `[TBD allowlist]`.  
-5) **Prohibited behavior:** no wash trading; no trades intended to mislead market participants.  
-6) **Price discipline (optional):** only execute within stated bands/conditions: `[TBD, or "none"]`.  
-7) **Cap enforcement:** cumulative Stable Asset spent must not exceed **`[TBD MAX_SPEND]`**.
+1. **No leverage:** no borrowing, margin, leverage, or derivatives to implement buybacks.  
+2. **Dispersed execution:** purchases must be dispersed over time (TWAP/DCA).  
+3. **Max order size:** no single purchase may exceed **`[TBD MAX_ORDER_NOTIONAL]`** Stable Asset.  
+4. **Permitted venues/routes:** only the following venues/routes are permitted: `[TBD allowlist]`.  
+5. **Prohibited behavior:** no wash trading; no trades intended to mislead market participants.  
+6. **Price discipline (optional):** only execute within stated bands/conditions: `[TBD, or "none"]`.  
+7. **Cap enforcement:** cumulative Stable Asset spent must not exceed **`[TBD MAX_SPEND]`**.
+
+---
 
 ## 8. Reporting (binding)
 
@@ -110,6 +129,8 @@ This is normative text proposed for adoption by Governance System. If (and only 
 - average purchase price (time-weighted where reasonable)
 - ending balances of Buyback Vault and SOLO Treasury Wallet
 - transaction identifiers / links
+
+---
 
 ## 9. Execution Bundle scope limitation (binding)
 

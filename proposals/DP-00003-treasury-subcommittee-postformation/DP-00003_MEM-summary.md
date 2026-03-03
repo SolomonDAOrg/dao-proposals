@@ -14,9 +14,13 @@
 
 After Company formation is effective, this proposal grants the Treasury Subcommittee delegated authority to manage designated **Company Treasury Account(s)** within strict constraints (multisig threshold, caps, allowlists, revocation, reporting).
 
+---
+
 ### 2. Designates the second multisig/vault as a Company Treasury Account
 
 Designates the second Squads multisig/vault as an official Company Treasury Account for treasury operations under the Company Agreement framework.
+
+---
 
 ### 3. Moves an initial tranche from main treasury into that Company Treasury Account
 
@@ -28,6 +32,8 @@ Transfers a specified tranche of assets from the main DAO treasury into the Comp
 - signer set + threshold: `[TBD]`
 - initial transfer assets/amounts: `[TBD]`
 - operating constraints: `[TBD]`
+
+---
 
 ## Links
 

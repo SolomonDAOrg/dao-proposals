@@ -36,27 +36,33 @@ This Resolution does two things:
 
 2. Appoints Treasury Subcommittee **Designates** for pre-formation readiness work (**no delegated treasury authority**).
 
+---
+
 ## 2. Operative rule
 
 This is **normative** text proposed for adoption by Governance System. If (and only if) it is adopted and the Execution Bundle executes successfully, the operative clauses below are effective as stated.
 
+---
+
 ## 3. Definitions
 
-**"Company"** means SOLOMON DAO LLC, pending formation.
+1. **"Company"** means SOLOMON DAO LLC, pending formation.
 
-**"Designates"** means the persons named in §6, appointed for readiness only.
+2. **"Designates"** means the persons named in §6, appointed for readiness only.
 
-**"Execution Bundle"** means the on-chain transactions that implement the on-chain portions of this Resolution.
+3. **"Execution Bundle"** means the on-chain transactions that implement the on-chain portions of this Resolution.
 
-**"Governance System"** means the on-chain mechanism by which this Resolution is adopted and executed.
+4. **"Governance System"** means the on-chain mechanism by which this Resolution is adopted and executed.
 
-**"Legal Budget"** means the capped amount released under §5.
+5. **"Legal Budget"** means the capped amount released under §5.
 
-**"Legal Budget Wallet"** means the destination wallet/vault specified in §5.2.
+6. **"Legal Budget Wallet"** means the destination wallet/vault specified in §5.2.
 
-**"Treasury Subcommittee"** means the post-formation company treasury subcommittee contemplated by the Company Agreement framework.
+7. **"Treasury Subcommittee"** means the post-formation company treasury subcommittee contemplated by the Company Agreement framework.
 
-**"Undertaking"** means the Treasury Subcommittee confidentiality undertaking.
+8. **"Undertaking"** means the Treasury Subcommittee confidentiality undertaking.
+
+---
 
 ## 4. Hard constraint: no delegated treasury authority granted here
 
@@ -66,6 +72,8 @@ This is **normative** text proposed for adoption by Governance System. If (and o
 - confirms formation effectiveness, and
 - designates the relevant company treasury account(s) / vault(s), and
 - sets mechanical constraints (multisig threshold, caps, allowlists, revocation, reporting).
+
+---
 
 ## 5. Legal/compliance budget release (on-chain)
 
@@ -79,15 +87,17 @@ This is **normative** text proposed for adoption by Governance System. If (and o
 
 - **Legal Budget Wallet / Vault:** `[TBD: address / vault id]`
 
+---
+
 ## 6. Treasury Subcommittee Designates (pre-formation readiness)
 
 ### 6.1 Appointment
 
 **RESOLVED:** The following persons are appointed as **Treasury Subcommittee Designates** effective upon adoption:
 
-- Designate A: `[name/handle]` — `[wallet]`
-- Designate B: `[name/handle]` — `[wallet]`
-- Designate C: `[name/handle]` — `[wallet]`
+- Designate A: `[name/handle]` -- `[wallet]`
+- Designate B: `[name/handle]` -- `[wallet]`
+- Designate C: `[name/handle]` -- `[wallet]`
 - Optional observers (no signing authority): `[TBD]`
 
 **RESOLVED:** Designates may be removed or replaced by subsequent governance action.
@@ -108,6 +118,8 @@ This is **normative** text proposed for adoption by Governance System. If (and o
 ### 6.4 No agency; no spokesperson
 
 **RESOLVED:** Nothing in this Resolution creates any agency, partnership, fiduciary relationship, or spokesperson authority. No Designate may represent themselves as able to bind the Company or control DAO or Company treasury assets.
+
+---
 
 ## 7. Execution Bundle scope limitation (binding)
 
