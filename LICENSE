@@ -1,0 +1,451 @@
+SOLOMON DAO LLC PUBLIC GOVERNANCE REPOSITORY LICENSE
+
+Version 1.0 - Effective 18 February 2026
+
+================================================================================
+
+SOLOMON DAO LLC (the "DAO"), a Marshall Islands DAO LLC organized under the
+Decentralized Autonomous Organizations Act of 2022 as amended.
+<https://solomondao.org>
+
+All rights reserved except as expressly granted in this License.
+
+This License is for publicly accessible repositories that contain Governance
+Artefacts (defined below), including proposal texts, resolutions, annexes,
+SOPs, templates, drafting materials, diagrams, and related governance
+documentation.
+It is not an open-source license.
+
+================================================================================
+
+PROTOCOL IP FIREWALL
+
+================================================================================
+
+"Protocol" in this License has the same meaning as "Protocol IP" as defined in
+the Company Agreement of SOLOMON DAO LLC (Operating Agreement §2.1(17)) -
+design, documentation, code, repositories, and other intellectual property.
+It does not mean an operating business, service, issuer, custodian,
+counterparty, or other person or entity.
+
+The DAO holds Protocol IP and licenses it under terms that require licensees
+to comply with applicable law and assume responsibility for their own
+deployments and operations.
+The DAO does not operate, control, administer, or maintain any
+deployment of Protocol IP and shall not be deemed to do so.
+Licensee conduct is independent and is not attributable to the DAO.
+
+Nothing in this License or the Repository Materials constitutes or implies
+that the DAO operates, provides, maintains, or supports any deployment or
+service.
+
+================================================================================
+
+                            TABLE OF CONTENTS
+
+    1.  DEFINITIONS
+    2.  OWNERSHIP; SCOPE; META-DAO CARVE-OUT
+    3.  BASE PERMISSION GRANT (GENERAL PUBLIC)
+    4.  METADAO COHORT REUSE LICENSE (EXCLUSIVE BENEFIT)
+    5.  RESTRICTIONS (APPLY TO ALL RECIPIENTS)
+    6.  ADDITIONAL LICENSES FOR NON-METADAO ENTITIES (BY RESOLUTION OR
+        FORMAL DAO GOVERNANCE ACTION)
+    7.  CONTRIBUTIONS
+    8.  THIRD-PARTY COMPONENTS
+    9.  DISCLAIMER; LIMITATION OF LIABILITY
+   10.  TERMINATION
+   11.  GOVERNING LAW
+   12.  WHOLE LICENSE
+
+================================================================================
+
+1. DEFINITIONS
+
+1.1 "Governance Artefacts" means all proposal texts, resolutions, annexes,
+SOPs, templates, drafting materials, diagrams, and other governance
+documentation authored for, adopted by, or published under the DAO's
+governance processes, including any such materials published in a proposal
+registry, SOP registry, or template registry (each as may exist from time
+to time).
+
+1.2 "Repository Materials" means all content in this repository that is, or is
+clearly intended to be, Governance Artefacts or support material for
+Governance Artefacts (including schemas, metadata conventions, and
+non-production reference tooling used solely to format, validate, render, or
+index Governance Artefacts).
+For avoidance of doubt, "Repository Materials" exclude any Confidential
+Materials (as defined below) and exclude any underlying documents, runbooks,
+SOPs, counterparty particulars, or other materials that are not published in
+full in this repository, even if referenced by hash, digest, content
+identifier, link, filename, or description.
+
+1.3 "DAO Marks" means trademarks, trade names, logos, domain names, and
+branding identifiers of the DAO or the Protocol (as applicable).
+
+1.4 "MetaDAO" means the separate DAO / ecosystem commonly known as "MetaDAO"
+(or any successor governance that is substantially similar in purpose and
+continuity).
+
+1.5 "MetaDAO Marks" means the "MetaDAO" name and any MetaDAO trademarks,
+trade names, logos, domain names, and branding identifiers, which are owned or
+controlled by MetaDAO (not by the DAO).
+
+1.6 "MetaDAO IP" means MetaDAO's intellectual property, including (without
+limitation) any MetaDAO governance portal, programs, mechanisms (including any
+futarchy or prediction mechanisms), smart contracts, documentation, and
+branding, except to the limited extent a specific item is expressly included
+in the Repository Materials and is owned by the DAO as a Governance Artefact.
+
+1.7 "MetaDAO Cohort" means any past, current, or future cohort or DAO within
+the MetaDAO ecosystem (or any successor umbrella program that is substantially
+similar in purpose), including its governance participants acting for
+governance, documentation, or template reuse purposes.
+
+1.8 "You" means the individual or entity exercising permissions under this
+License.
+
+1.9 "Production Implementations" means any production-grade software, source
+code, binaries, deployments, infrastructure, configuration, trading logic,
+rebalancer agents, automation, or operational methods used to operate any
+Implementation or any strategy, other than non-production reference tooling
+included in the Repository Materials under Section 1.2.
+
+1.10 "Confidential Materials" means any non-public or security-sensitive or
+operationally sensitive information, including without limitation: private
+keys and signing infrastructure; incident-response runbooks; internal SOPs;
+counterparty particulars designated as confidential; security controls; trade
+secrets; and any unredacted/original versions of materials for which only a
+redacted copy, summary, or hash/content identifier is published.
+
+1.11 "Confidential Instruments" means any document, dataset, counterparty
+particulars, SOP, runbook, security material, or other information that is
+not included in the repository and is referenced only by hash, content
+identifier (CID), checksum, commitment, or a redacted/summary representation.
+
+1.12 "Hash Reference" means any hash, digest, CID, or other integrity anchor
+included in the Repository Materials that identifies or commits to content
+that may be withheld or separately stored.
+
+2. OWNERSHIP; SCOPE; META-DAO CARVE-OUT
+
+2.1 The DAO owns the Repository Materials as Protocol IP (being Governance
+Artefacts within the meaning of the Company Agreement), subject to any
+third-party rights expressly noted in a file and any open-source licenses that
+apply to embedded third-party components.
+
+2.2 This License grants only the permissions expressly stated below. No other
+rights are granted by implication, estoppel, or otherwise.
+
+2.3 MetaDAO carve-out (no claim; no license). The DAO does not claim ownership
+of, and this License does not grant any rights in, MetaDAO Marks or MetaDAO
+IP. Any reference in the Repository Materials to MetaDAO governance, programs,
+mechanisms, or portals is purely referential unless an item is expressly
+identified as a Governance Artefact owned by the DAO.
+
+2.4 Access to MetaDAO systems. Any access to, or use of, MetaDAO portals,
+systems, or programs is governed solely by MetaDAO's own terms and
+permissions.
+Nothing in this License grants access rights to MetaDAO infrastructure.
+
+2.5 Hash references are integrity anchors only. A Hash Reference is published
+solely to enable integrity verification and does not constitute publication
+of, or grant any license to, the underlying Confidential Instrument.
+
+2.6 Relationship to Company Agreement and IP License Framework. This License
+governs public governance repositories only. It is a repository-content license
+for Repository Materials and does not amend, override, expand, or interpret the
+Company Agreement instrument hierarchy.
+
+Licensing of Protocol IP for deployment or commercial use is governed
+exclusively by the IP License Framework (a Primary Instrument of the Company
+Agreement) and requires a License granted under it. Nothing in this License or
+the Repository Materials constitutes or implies a grant under the IP License
+Framework.
+
+For avoidance of doubt, publication of SOPs, templates, standards, examples,
+checklists, or other Repository Materials does not constitute direction,
+control, supervision, approval, or orchestration of any Licensee's business,
+operations, compliance posture, or Licensee Declaration. Any Licensee's use or
+non-use of Repository Materials is the independent decision of that Licensee,
+and no agency, partnership, joint venture, common enterprise, or representative
+relationship is created by such publication or use.
+
+2.7 Authoritative record; no governance effect by repository presence. This
+License governs repository use only. It does not, by itself, adopt, amend,
+ratify, approve, or make effective any governance instrument, Resolution,
+Operational Pack, or other Company Agreement instrument.
+Whether any Repository Material is adopted, current, or binding is determined
+solely by the DAO's governance system / on-chain record, formally executed or
+filed instruments (as applicable), and the authoritative records maintained
+under the Company Agreement.
+If a repository copy differs from an adopted/authoritative record, the
+adopted/authoritative record controls.
+Nothing in this License expands authority beyond the Company Agreement,
+the order of precedence established in it, or on-chain constraints.
+
+3. BASE PERMISSION GRANT (GENERAL PUBLIC)
+
+Subject to Sections 4 through 10, the DAO grants You a limited, non-exclusive,
+worldwide, royalty-free license to:
+
+(a) access, download, and view the Repository Materials; (b) reproduce and
+redistribute verbatim copies of the Repository Materials (in whole or in part)
+for purposes of: transparency, discussion, education, review, audit,
+commentary, or governance participation; and (c) create and distribute
+limited extracts of Repository Materials for citation, criticism,
+translation, or analysis, provided You do not present such extracts in a
+way that is materially misleading as to source or meaning.
+
+No other distribution of modified versions is permitted for the general public
+without an additional license under Section 6.
+
+4. METADAO COHORT REUSE LICENSE (EXCLUSIVE BENEFIT)
+
+4.1 In addition to Section 3, the DAO grants each MetaDAO Cohort a
+royalty-free, non-exclusive, worldwide, perpetual license to use, reproduce,
+modify, and redistribute the Governance Artefacts for the purpose of
+governance, documentation, and template reuse, including to build compatible
+or improved governance processes across MetaDAO Cohorts.
+
+4.2 Exclusivity. The modification + redistribution permission in Section 4.1
+is an exclusive benefit for MetaDAO Cohorts. Entities that are not MetaDAO
+Cohorts do not receive that permission unless granted an additional license
+under Section 6 by DAO governance.
+
+4.3 Limits (no expansion beyond Founding Charter intent). This Section 4
+license: (a) does not grant any rights to DAO Marks, Protocol branding, or
+trademarks (other than purely nominative reference); (b) does not expand any
+license to Protocol IP beyond Governance Artefacts; and (c) does not imply
+endorsement, partnership, agency, or official status between the DAO and any
+MetaDAO Cohort.
+
+5. RESTRICTIONS (APPLY TO ALL RECIPIENTS)
+
+5.1 No Trademark / Branding License. This License does not grant any right to
+use DAO Marks or MetaDAO Marks, except purely nominative use strictly
+necessary to refer to the DAO, MetaDAO, or the Repository Materials in a
+factual manner.
+You must not use DAO Marks or MetaDAO Marks to market, brand, or promote a
+product or service, and must not imply endorsement, affiliation, sponsorship,
+partnership, agency, or official status.
+
+5.2 No "Protocol Production Use" License. This License does not grant rights
+to deploy, operate, commercialize, or provide a production protocol or
+service using Protocol IP.
+Repository Materials do not constitute a license to deploy, operate,
+support, or provide any Implementation of Protocol IP.
+
+5.3 No Implementation / Strategy License. This License does not grant any
+rights in or to any Production Implementations (including any concrete
+rebalancer or trading mechanism implementation), whether or not described
+by a state machine, diagram, specification, parameter schema, pseudocode,
+or other Governance Artefact.
+For avoidance of doubt: the license to Governance Artefacts permits
+reuse of the descriptive materials (e.g., state machines), but does not
+license any corresponding implementation unless that implementation is
+itself included in the repository and expressly labeled as non-production
+reference tooling.
+
+5.4 No MetaDAO IP License. This License does not grant rights to deploy,
+operate, commercialize, or provide services using MetaDAO IP. Nothing herein
+is a sublicense of MetaDAO rights.
+
+5.5 No Misrepresentation. You must not present Repository Materials (or modified
+versions) as official, adopted, ratified, or effective DAO instruments unless
+they are, in fact, adopted in accordance with the Company Agreement and clearly
+identified as such.
+
+Where applicable, Tertiary Instruments (including SOPs) are official/effective
+only to the extent adopted or ratified through the DAO's governance process
+(including by Resolution and, where applicable, by an Operational Pack under the
+SOP: Order of Business for Operational Packs), and identified with the required
+status/version/effective-date metadata.
+
+Publication in a repository, inclusion in a branch, draft status, pull request,
+issue, discussion thread, or hash reference does not by itself make any item an
+official, adopted, ratified, or effective instrument.
+
+If you publish modified versions where permitted, you must clearly mark them as
+modified and not official.
+
+5.6 No resale / commercialization (survives derivatives). You must not sell,
+license for a fee, monetize access to, or otherwise commercially exploit the
+Repository Materials or any derivatives or compilations of them (including
+"governance kits," template packs, document bundles, or paywalled
+collections), except with an additional license granted under Section 6.
+For avoidance of doubt, this prohibition includes charging for access to a
+fork, mirror, or hosted copy of the Repository Materials (whether or not
+the underlying repository is otherwise publicly accessible).
+This restriction applies even if modifications are substantial.
+
+5.7 Preserve Notices. You must retain this License text and any copyright or
+provenance notices included in the Repository Materials, except that you
+may add attribution or modification notices.
+
+5.8 No license to Confidential Materials; hashes are not a publication. Any
+hash, digest, content identifier, or similar integrity anchor included in the
+Repository Materials is provided solely for verification and reference. It
+does not grant any right to access, obtain, use, reproduce, publish, or create
+derivative works from any underlying Confidential Materials or any
+original/unredacted forms. All such rights are reserved.
+
+5.9 No Direction or Operational Control Through Repository License Terms.
+Any notice, attribution, provenance, labeling, separation, or usage condition
+in this License or in Repository Materials is an intellectual-property use
+condition only.
+It does not direct, supervise, approve, manage, or control Your business,
+deployments, implementations, services, compliance program, customer or
+counterparty relationships, or internal operations.
+No inference of DAO direction, control, coordination, approval, endorsement,
+agency, partnership, or common enterprise may be drawn from the existence of
+such conditions or from variations in how different recipients use or do not
+use Repository Materials.
+You remain solely responsible for Your own activities and compliance with law.
+The DAO and contributors undertake no duty to monitor, verify, audit, or
+supervise Your activities or compliance.
+
+6. ADDITIONAL LICENSES FOR NON-METADAO ENTITIES (BY RESOLUTION OR FORMAL DAO
+GOVERNANCE ACTION)
+
+6.1 Mission-aligned professional DAOs (and entities seeking to become DAOs)
+may request a separate license to modify and redistribute Governance Artefacts
+beyond Section 3. Such a license, if granted, must be approved by Resolution
+or other formal DAO governance action that expressly grants the license and
+defines its scope.
+
+6.2 No implied negotiation. Until such approval is granted, non-MetaDAO
+entities have only the permissions in Section 3.
+
+7. CONTRIBUTIONS
+
+7.1 If You submit a pull request, patch, issue content, or other contribution
+intended to be included in the repository (a "Contribution"), You represent
+that You have the right to grant the DAO the permissions needed to use that
+Contribution.
+
+7.2 You grant the DAO a perpetual, irrevocable, worldwide, royalty-free
+license to use, reproduce, modify, sublicense, and distribute Your
+Contribution as part of the Repository Materials and as Governance Artefacts,
+under any terms the DAO may adopt for governance repositories (including this
+License and any successor license adopted by governance).
+
+7.3 No Governance Status from Contribution Workflow. A Contribution, and any
+review, moderation, acceptance, merge, or publication of that Contribution,
+does not by itself make it an adopted, ratified, current, or effective DAO
+instrument. Governance effect (if any) arises only through the DAO's
+governance mechanisms and authoritative records under the Company Agreement.
+
+7.4 No Relationship Created by Contribution Workflow. Submitting, reviewing,
+moderating, maintaining, or merging repository content does not create any
+agency, partnership, joint venture, employment, fiduciary, counsel, or other
+representative relationship with the DAO.
+It does not confer Membership, Subcommittee status, voting rights, economic
+rights, or authority under the Company Agreement.
+No person may bind, represent, or speak on behalf of the DAO by reason only
+of repository activity, role labels, or repository permissions.
+
+7.5 No Contribution, pull request, issue, discussion, review,
+moderation activity, or repository maintenance activity creates Membership,
+Subcommittee status, employment, agency, fiduciary duty, or representative
+authority with respect to the DAO.
+
+8. THIRD-PARTY COMPONENTS
+
+8.1 If any file or subcomponent is accompanied by a third-party license
+(including an OSI license), that third-party license governs that file or
+subcomponent to the extent of any inconsistency.
+
+8.2 Nothing in this License restricts rights You may have under such
+third-party licenses.
+
+9. DISCLAIMER; LIMITATION OF LIABILITY
+
+9.1 The Repository Materials are provided "AS IS" and "AS AVAILABLE," without
+warranty of any kind, whether express, implied, or statutory, including
+without limitation warranties of merchantability, fitness for a particular
+purpose, title, non-infringement, accuracy, completeness, or that any
+governance process described will be adopted or effective.
+
+9.2 To the maximum extent permitted by law, the DAO and its contributors
+shall not be liable for any indirect, incidental, special, consequential,
+exemplary, or punitive damages, or any loss of profits, revenue, data, or
+goodwill, arising out of or related to the Repository Materials or this
+License.
+
+9.3 No Professional Advice; no counsel relationship. The Repository Materials
+are provided for governance coordination, documentation, and transparency
+purposes only. Nothing in the Repository Materials (including any proposal,
+memorandum, charter draft, annex, template, discussion, issue, or
+Contribution) constitutes legal, tax, investment, accounting, or other
+professional advice, and no attorney-client or similar advisory relationship
+is created.
+You are solely responsible for obtaining independent advice appropriate to
+your circumstances.
+DISCLAIMER.md, if present in the repository root, is incorporated by
+reference and forms part of this Section 9.
+
+9.4 No Duty to Direct or Supervise Recipient Operations. Repository
+communications (including issues, pull requests, comments, reviews, and
+maintainer actions) are for governance recordkeeping and coordination only.
+They do not create any duty by the DAO or contributors to direct, supervise,
+monitor, approve, or maintain any recipient's business, implementation, or
+compliance posture.
+
+10. TERMINATION
+
+10.1 This License terminates automatically if You materially breach Sections
+5.1-5.6. Upon termination, You must cease distribution of Repository
+Materials under this License. Sections 2.3 through 2.6 and 5 through 10
+survive termination.
+
+11. GOVERNING LAW
+
+11.1 This License is governed by the laws applicable to SOLOMON DAO LLC
+(Marshall Islands), excluding conflict-of-law rules, except to the extent
+superseded by mandatory law.
+
+12. WHOLE LICENSE
+
+12.1 This License, including its structure, drafting, and terms, constitutes
+Protocol IP. Unauthorized use, reproduction, or adaptation of this License
+is an infringement of the DAO's intellectual property rights and may be
+enforced by the DAO. The permissions granted in Sections 3 and 4 include
+the right to redistribute this License text as part of the Repository
+Materials, but do not include the right to adopt, adapt, or repurpose this
+License for use by any other entity except as permitted under Section 4 or
+a separate license granted under Section 6.
+
+12.2 This License is subject to the implied contractual covenant of
+good faith and fair dealing under the laws of the Republic of the
+Marshall Islands.
+
+12.3 No failure, delay, or partial exercise of any right under this License
+constitutes a waiver. Any waiver must be express and in writing adopted by
+DAO governance. A waiver on one occasion does not operate as a waiver on
+any other occasion.
+
+12.4 No implied covenant (other than good faith and fair dealing as stated in
+Section 12.2), usage of trade, course of dealing, course of performance,
+silence, delay, partial performance, or tolerance of non-conforming use
+creates or expands permissions beyond the express text of this License. No
+estoppel or similar doctrine may be asserted to create rights not expressly
+stated.
+
+12.5 If any provision of this License is held invalid, illegal, or
+unenforceable in any jurisdiction, that invalidity does not affect the
+remaining provisions, which continue in full force. This License shall be
+construed to give effect to the DAO's intent to the maximum extent
+permitted by law.
+
+12.6 Hierarchy acknowledgment. This License is not a Primary, Secondary, or
+Tertiary Instrument of the Company Agreement unless expressly incorporated by
+Resolution. It is a repository-content license only. To the extent Repository
+Materials include or reference Company governance instruments, their legal
+effect, precedence, and scope are governed solely by the Company Agreement
+and mandatory law.
+
+================================================================================
+
+END OF LICENSE
+
+================================================================================

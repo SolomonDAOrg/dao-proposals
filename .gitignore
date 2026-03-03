@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+out/
+.DS_Store
+DP-00000-founding-instrument-pack/DP-00000_PKT-filing.pdf
+DP-00000-founding-instrument-pack/DRAFT_INTERNAL_ONLY.pdf
+DP-00000-founding-instrument-pack/DP-00000_PKT-DRAFT-ONLY.pdf

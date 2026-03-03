@@ -1,0 +1,107 @@
+schema: record-schema
+schema_version: 1
+
+id: DP-00001
+series_code: DP
+series: 1
+
+title: Treasury Subcommittee (Pre-Formation) and Legal Budget
+slug: treasury-subcommittee-preformation
+
+entity_name: "SOLOMON DAO LLC"
+version: "1"
+
+entity:
+  legal_name: "SOLOMON DAO LLC"
+  short_name: "SOLOMON"
+
+document:
+  version: "1"
+  document_id: "DP-00001"
+  effective_date: "2026-03-03"
+
+status:
+  phase: draft
+  last_updated: 2026-03-03T00:00:00Z
+
+links:
+  supersedes: []
+  superseded_by: []
+  related: []
+
+documents:
+  primary:
+    - path: DP-00001_MEM-full.md
+      label: Treasury Subcommittee (Pre-Formation) and Legal Budget - Full
+    - path: DP-00001_MEM-summary.md
+      label: Treasury Subcommittee (Pre-Formation) and Legal Budget - Summary
+  secondary: []
+    tertiary: []
+    supplemental: []
+  log:
+    path: DP-00001_LOG-governance.md
+    label: Governance Log
+  index:
+    path: DP-00001_IND-index.md
+    label: Record Index (Table of Contents)
+
+assembly:
+  packet:
+    path: DP-00001_SOLOMON_DAO_LLC.pdf
+    label: Treasury Subcommittee (Pre-Formation) and Legal Budget
+  pack:
+    - precedence: 10
+      doc_type: IND
+      path: DP-00001_IND-index.md
+      label: Index / Table of Contents
+    - precedence: 20
+      doc_type: MEM
+      path: DP-00001_MEM-summary.md
+      label: Treasury Subcommittee (Pre-Formation) and Legal Budget - Summary
+    - precedence: 30
+      doc_type: MEM
+      path: DP-00001_MEM-full.md
+      label: Treasury Subcommittee (Pre-Formation) and Legal Budget
+    - precedence: 120
+      doc_type: LOG
+      path: DP-00001_LOG-governance.md
+      label: Governance Log
+      include: false
+
+timeline:
+  opened_at: 2026-03-03T00:00:00Z
+  drafted_at: 2026-03-03T00:00:00Z
+
+extensions:
+  formatting:
+    profile: canonical-ascii
+  language:
+    locale: en-US
+
+  dao_proposals:
+    governance:
+      proposal_number: 1
+      proposer: null
+      squads_dao_address: DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA
+
+      passed_commit: null
+      passed_tag: null
+      passed_pinned: null
+      adopted_paths: []
+      vote_reference: null
+      vote_tx: null
+      discussion_url: null
+      execution_txs: []
+
+    result:
+      outcome: pending_submission
+      for_votes: null
+      against_votes: null
+      abstain_votes: null
+      quorum_reached: null
+      notes: null
+
+authority:
+  domain: company
+  class: tertiary-instrument
+  notes: "Subject to Company formation then upon successful vote and adoption, this proposal becomes a tertiary instrument of the Company Agreement, recorded in the SOP Registry."

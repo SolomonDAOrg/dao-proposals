@@ -1,0 +1,177 @@
+schema: record-schema
+schema_version: 1
+
+id: DP-00000
+series_code: DP
+series: 0
+
+title: Founding Instrument Pack and Formation Filings
+slug: founding-instrument-pack
+
+entity_name: "SOLOMON DAO LLC"
+version: "1"
+
+entity:
+  legal_name: "SOLOMON DAO LLC"
+  short_name: "SOLOMON"
+
+document:
+  version: "1"
+  document_id: "DP-00000"
+  effective_date: "2026-02-24"
+
+status:
+  phase: formation
+  last_updated: 2026-02-24T00:00:00Z
+
+links:
+  supersedes: []
+  superseded_by: []
+  related: []
+
+documents:
+  primary:
+    - path: DP-00000_CHA-SOLOMON_DAO_LLC_Operating_Agreement.md
+      label: Operating Agreement of SOLOMON DAO LLC
+    - path: DP-00000_CHA-SOLOMON_DAO_LLC_Founding_Charter.md
+      label: Founding Charter of SOLOMON DAO LLC
+    - path: DP-00000_MEM-Founding_Memorandum.md
+      label: Founding Memorandum
+    - path: DP-00000_CHA-SOLOMON_DAO_LLC_IP_License_Framework.md
+      label: IP License Framework of SOLOMON DAO LLC
+  secondary:
+    - path: DP-00000_REG-smart-contract-registry.md
+      label: Smart Contract Registry of SOLOMON DAO LLC
+    - path: DP-00000_REG-website-registry.md
+      label: Website Registry of SOLOMON DAO LLC
+    - path: DP-00000_REG-intellectual-property-registry.md
+      label: Intellectual Property Registry of SOLOMON DAO LLC
+    - path: DP-00000_REG-ip-license-assignment-register.md
+      label: IP License & Assignment Register of SOLOMON DAO LLC
+    - path: DP-00000_REG-counterparty-agreements-register.md
+      label: Counterparty Agreements Register of SOLOMON DAO LLC
+  tertiary:
+    - path: DP-00000_SOP-Order-of-business.md
+      label: "SOP: Order of Business for Operational Packs"
+  log:
+    path: DP-00000_LOG-governance.md
+    label: Governance Log
+  index:
+    path: DP-00000_IND-index.md
+    label: Record Index (Table of Contents)
+
+assembly:
+  packet:
+    path: Company_Agreement_SOLOMON_DAO_LLC.pdf
+    label: Company Agreement of SOLOMON DAO LLC
+  pack:
+    - precedence: 10
+      doc_type: IND
+      path: DP-00000_IND-index.md
+      label: Index / Table of Contents
+    - precedence: 20
+      doc_type: MEM
+      path: DP-00000_MEM-Founding_Memorandum.md
+      label: Founding Memorandum
+    - precedence: 30
+      doc_type: CHA
+      path: DP-00000_CHA-SOLOMON_DAO_LLC_Operating_Agreement.md
+      label: Operating Agreement of SOLOMON DAO LLC
+    - precedence: 40
+      doc_type: CHA
+      path: DP-00000_CHA-SOLOMON_DAO_LLC_Founding_Charter.md
+      label: Founding Charter of SOLOMON DAO LLC
+    - precedence: 50
+      doc_type: CHA
+      path: DP-00000_CHA-SOLOMON_DAO_LLC_IP_License_Framework.md
+      label: IP License Framework of SOLOMON DAO LLC
+    - precedence: 60
+      doc_type: REG
+      path: DP-00000_REG-smart-contract-registry.md
+      label: Smart Contract Registry of SOLOMON DAO LLC
+    - precedence: 70
+      doc_type: REG
+      path: DP-00000_REG-website-registry.md
+      label: Website Registry of SOLOMON DAO LLC
+    - precedence: 80
+      doc_type: REG
+      path: DP-00000_REG-intellectual-property-registry.md
+      label: Intellectual Property Registry of SOLOMON DAO LLC
+    - precedence: 90
+      doc_type: REG
+      path: DP-00000_REG-ip-license-assignment-register.md
+      label: IP License & Assignment Register of SOLOMON DAO LLC
+    - precedence: 100
+      doc_type: REG
+      path: DP-00000_REG-counterparty-agreements-register.md
+      label: Counterparty Agreements Register of SOLOMON DAO LLC
+    - precedence: 110
+      doc_type: SOP
+      path: DP-00000_SOP-Order-of-business.md
+      label: "SOP: Order of Business for Operational Packs"
+    - precedence: 120
+      doc_type: LOG
+      path: DP-00000_LOG-governance.md
+      label: Governance Log
+      include: false
+
+timeline:
+  opened_at: 2026-02-24T00:00:00Z
+  drafted_at: 2026-02-24T00:00:00Z
+
+extensions:
+  formatting:
+    profile: canonical-ascii
+  language:
+    locale: en-US
+
+  dao_proposals:
+    governance:
+      proposal_number: 0
+      proposer: null
+      system: null
+      squads_dao_address: DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA
+
+      discussion_urls: []
+
+      vote:
+        reference: null
+        start: null
+        end: null
+        tx_refs: []
+
+      passed_commit: null
+      passed_tag: null
+      passed_pinned: null
+      adopted_paths: []
+
+      executed_commit: null
+      executed_tag: null
+      executed_pinned: null
+      execution_txs: []
+
+    result:
+      outcome: pending_submission
+      for_votes: null
+      against_votes: null
+      abstain_votes: null
+      quorum_reached: null
+      notes:
+        - Pre-formation organizer record; not voted.
+
+authority:
+  domain: company
+  class: primary-instrument
+  notes: "Pre-formation organizer record (DP-00000). Not a governance vote artifact. Subject to: governing law, regulations, and official registrar/agency instructions; company instruments are subordinate."
+
+commitments:
+  - kind: government-form-original
+    label: Registrar / filing originals (forms, notices, official correspondence)
+    access: confidential
+    storage: off-repo
+    hash: null
+  - kind: identity-kyc-package
+    label: KYC / identity artifacts for Representative Agent (not repository content)
+    access: confidential
+    storage: off-repo
+    hash: null

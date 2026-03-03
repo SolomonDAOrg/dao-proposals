@@ -1,0 +1,32 @@
+schema: record-schema-upstream
+schema_version: 1
+
+record_schema:
+  upstreams:
+    - name: Record Schema
+      repo: "https://github.com/SolomonDAOrg/record-schema"
+      revision: "v1.0.0"
+      license: "SOLOMON DAO LLC PUBLIC GOVERNANCE REPOSITORY LICENSE"
+    
+    - name: Record Schema Toolkit
+      repo: "https://github.com/SolomonDAOrg/record-schema-toolkit"
+      revision: "v1.0.0"
+      license: "SOLOMON DAO LLC PUBLIC GOVERNANCE REPOSITORY LICENSE"
+  
+  provides:
+    - name: "SOLOMON DAO LLC Governance Proposal Registry"
+      kind: "registry"
+      id: "dao-proposals"
+      license: "SOLOMON DAO LLC PUBLIC GOVERNANCE REPOSITORY LICENSE"
+      licenseFile: "./LICENSE"
+      attributionFile: "./ATTRIBUTION.md"
+
+  profile_hint: "dao-proposals"
+  
+  formatting_packs:
+    - "formatting/packs/base-v1.json"
+    - "formatting/packs/dao-proposals-v1.json"
+  
+  render_packs:
+    - "render/packs/base-v1.json"
+    - "render/packs/dao-proposals-v1.json"
