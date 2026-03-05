@@ -286,7 +286,7 @@ applicable law.
 
 - Full normative resolution text (controls if there is any conflict
   with this summary):
-  [DP-00001_MEM-full.md](https://github.com/SolomonDAOrg/dao-proposals/DP-00001-treasury-subcommittee-preformation/DP-00001_MEM-full.md)
+  [DP-00001_MEM-full.md](https://github.com/SolomonDAOrg/dao-proposals/blob/main/proposals/DP-00001-treasury-subcommittee-preformation/DP-00001_MEM-full.md)
 - Compiled Company Agreement PDF:
   [Company_Agreement_SOLOMON_DAO_LLC.pdf](https://github.com/SolomonDAOrg/compiled-documents/blob/main/company-agreement/Company_Agreement_SOLOMON_DAO_LLC.pdf)
 - SOP: Order of Business for Operational Packs. Part of the Company
