@@ -105,5 +105,10 @@ extensions:
 
 authority:
   domain: company
-  class: tertiary-instrument
-  notes: "Subject to Company formation then upon successful vote and adoption, this proposal becomes a tertiary instrument of the Company Agreement, recorded in the SOP Registry."
+  class: resolution-only
+  notes: >
+    Adopted as a Company Resolution establishing the Company Treasury
+    Subcommittee (appointment + scope/limits) and authorizing a capped
+    legal/compliance budget. Does not adopt or amend any
+    Primary/Secondary/Tertiary instrument text; follow-on SOPs/registries
+    (if any) are adopted separately via Resolution / Operational Pack.

@@ -5,11 +5,11 @@ artefacts for DAO proposals.
 
 The goals:
 
--   Preserve a clean, chronological history of proposals.
--   Make it obvious which files are the canonical memorandum, charter,
-    supporting records, and execution bundles.
--   Track status (draft, voting, executed, superseded) in a machine-readable
-    way.
+- Preserve a clean, chronological history of proposals.
+- Make it obvious which files are the canonical memorandum, charter,
+  supporting records, and execution bundles.
+- Track status (draft, voting, executed, superseded) in a machine-readable
+  way.
 
 The conventions below are recommended but not mandatory. Proposals that do
 not follow this scheme are still valid if they pass governance; they may,
@@ -26,22 +26,22 @@ governance outcome and the exact text that was adopted.
 1. **Create an annotated tag** pointing at the adopted commit. The tag
 message MUST include:
 
-    - governance vote reference (e.g. MetaDAO proposal number);
-    - voting outcome (passed/rejected/withdrawn/expired);
-    - any on-chain execution references (tx signature(s), bundle hash,
-      etc.);
-    - the full commit hash (or the tag is itself sufficient if it points
-      to the commit).
+- governance vote reference (e.g. MetaDAO proposal number);
+- voting outcome (passed/rejected/withdrawn/expired);
+- any on-chain execution references (tx signature(s), bundle hash,
+  etc.);
+- the full commit hash (or the tag is itself sufficient if it points
+  to the commit).
 
 2. **Record the pin in `META.yaml`** (same proposal directory):
 
-    - `extensions.dao_proposals.governance.passed_commit` = full git commit hash;
-    - `extensions.dao_proposals.governance.passed_tag` = the annotated tag name;
-    - `extensions.dao_proposals.governance.passed_pinned` = UTC timestamp;
-    - `extensions.dao_proposals.governance.vote.reference` /
-      `extensions.dao_proposals.governance.vote.tx_refs` /
-      `extensions.dao_proposals.governance.discussion_urls` as applicable;
-    - `extensions.dao_proposals.governance.execution_txs` (list) where applicable.
+- `extensions.dao_proposals.governance.passed_commit` = full git commit hash;
+- `extensions.dao_proposals.governance.passed_tag` = the annotated tag name;
+- `extensions.dao_proposals.governance.passed_pinned` = UTC timestamp;
+- `extensions.dao_proposals.governance.vote.reference` /
+  `extensions.dao_proposals.governance.vote.tx_refs` /
+  `extensions.dao_proposals.governance.discussion_urls` as applicable;
+- `extensions.dao_proposals.governance.execution_txs` (list) where applicable.
 
 3. **Record the same in `LOG-governance.md`** (append-only event log).
 
@@ -50,8 +50,8 @@ message MUST include:
 
 **Tag naming (recommended):**
 
--   `DP-00001@adopted-YYYY-MM-DD` (simple and readable), or
--   `DP-00001@passed-MetaDAO-123` (vote-centric)
+- `DP-00001@adopted-YYYY-MM-DD` (simple and readable), or
+- `DP-00001@passed-MetaDAO-123` (vote-centric)
 
 Use **annotated** tags (not lightweight tags) so the tag itself carries
 the vote/tx metadata.
@@ -82,11 +82,15 @@ See: `DISCLAIMER.md` and `LICENSE`.
 
 ## Confidential filings, forms, and identity materials (NOT repository content)
 
-Some filings require government forms, KYC/identity documents, wet-signed originals, or third-party service-provider paperwork.
+Some filings require government forms, KYC/identity documents, wet-signed
+originals, or third-party service-provider paperwork.
 
-- Do **not** commit government originals or identity artefacts into this repository.
-- Instead, record only **evidence anchors** (hash/CID + short label) in `META.yaml` under `commitments` or equivalent metadata.
-- Treat these artefacts as third-party/government/individual property, not as DAO governance records.
+- Do **not** commit government originals or identity artefacts into this
+  repository.
+- Instead, record only **evidence anchors** (hash/CID + short label) in
+  `META.yaml` under `commitments` or equivalent metadata.
+- Treat these artefacts as third-party/government/individual property,
+  not as DAO governance records.
 
 This keeps the proposal registry clean, auditable, and safe to publish.
 
@@ -118,10 +122,10 @@ dao-proposals/
   ...
 ```
 
--   `DP` = "DAO Proposal".
--   `00001` = zero-padded integer series ID (strict ordering).
--   The trailing slug (`example-name-here`) is a short, kebab-cased human
-    label.
+- `DP` = "DAO Proposal".
+- `00001` = zero-padded integer series ID (strict ordering).
+- The trailing slug (`example-name-here`) is a short, kebab-cased human
+  label.
 
 Example proposal directory:
 
@@ -143,21 +147,21 @@ DP-00001-example-name-here/
 
 **Format:** `DP-XXXXX`
 
--   `DP-00001`, `DP-00002`, ...
--   IDs are never reused.
--   If a proposal is replaced or corrected, it gets a new ID and uses the
+- `DP-00001`, `DP-00002`, ...
+- IDs are never reused.
+- If a proposal is replaced or corrected, it gets a new ID and uses the
     `supersedes` / `superseded_by` linkage in `META.yaml` (see below).
 
 **DP-00000 (reserved genesis / formation packet):**
 
--   `DP-00000` is reserved for the pre-formation organizer record (founding
+- `DP-00000` is reserved for the pre-formation organizer record (founding
     instrument pack / filing packet).
--   It is **not** a governance vote artefact (no on-chain vote is possible
+- It is **not** a governance vote artefact (no on-chain vote is possible
     pre-formation).
--   Use `status.phase: preformation` while filing is in progress (entity
+- Use `status.phase: preformation` while filing is in progress (entity
     not yet formed), then advance to `status.phase: formation` once the
     entity is formed and the filing is complete.
--   Track filing/formation outcomes as submission evidence, not as votes.
+- Track filing/formation outcomes as submission evidence, not as votes.
 
 ---
 
@@ -171,78 +175,78 @@ Each file starts with the proposal ID and a three-letter document type code:
 
 ### 3.1 Document type codes
 
--   `MEM` - **Memorandum**
-    The English narrative that describes the proposal and maps to any
-    execution or filing steps.
-    MUST include the standard disclaimer footer (see DISCLAIMER.md).
+- `MEM` - **Memorandum**
+  The English narrative that describes the proposal and maps to any
+  execution or filing steps.
+  MUST include the standard disclaimer footer (see `DISCLAIMER.md`).
 
--   `CHA` - **Charter / Primary Instrument**
-    A durable charter or other primary company instrument adopted, amended,
-    or carried by the record.
+- `CHA` - **Charter / Primary Instrument**
+  A durable charter or other primary company instrument adopted, amended,
+  or carried by the record.
 
--   `ANN` - **Annex / Appendix**
-    Technical specifications, parameters, state-machine descriptions,
-    schedules, proofs, etc.
+- `ANN` - **Annex / Appendix**
+  Technical specifications, parameters, state-machine descriptions,
+  schedules, proofs, etc.
 
--   `SOP` - **Standard Operating Procedure**
-    Operational governance procedures (rare in normal proposals; used in
-    formation packs).
+- `SOP` - **Standard Operating Procedure**
+  Operational governance procedures (rare in normal proposals; used in
+  formation packs).
 
--   `SUPP` - **Supplement**
-    Supplemental, non-primary narrative or supporting material.
+- `SUPP` - **Supplement**
+  Supplemental, non-primary narrative or supporting material.
 
--   `REG` - **Register / Registry**
-    A tabular/list document (a “register”) maintained as a canonical
-    registry artefact.
-    Examples: Smart Contract Register, Website Register. Where this
-    repository references the DAO Act phrase "directly manages,
-    facilitates, or operates", that is a statutory classification - not an
-    admission of day-to-day operation.
+- `REG` - **Register / Registry**
+  A tabular/list document (a "register") maintained as a canonical
+  registry artefact.
+  Examples: Smart Contract Register, Website Register. Where this
+  repository references the DAO Act phrase "directly manages,
+  facilitates, or operates", that is a statutory classification - not an
+  admission of day-to-day operation.
 
--   `TX` - **Execution Bundle**
-    Encoded on-chain transactions that implement the proposal (e.g.,
-    Squads payloads).
-    These are usually evidence/implementation artefacts, not the filed
-    instrument text.
+- `TX` - **Execution Bundle**
+  Encoded on-chain transactions that implement the proposal (e.g.,
+  Squads payloads).
+  These are usually evidence/implementation artefacts, not the filed
+  instrument text.
 
--   `IND` - **Index (Table of Contents)**
-    Human-readable index/TOC for a multipart record directory. Recommended
+- `IND` - **Index (Table of Contents)**
+  Human-readable index/TOC for a multipart record directory. Recommended
     for any record with multiple instruments/parts.
 
--   `PKT` - **Packet (Compiled Filing Artefact)**
-    A derived, compiled submission artefact (typically a PDF) generated
-    by stitching ordered Markdown parts.
-    Not a canonical source document unless explicitly pinned/hashed
-    in `META`.
+- `PKT` - **Packet (Compiled Filing Artefact)**
+  A derived, compiled submission artefact (typically a PDF) generated
+  by stitching ordered Markdown parts.
+  Not a canonical source document unless explicitly pinned/hashed
+  in `META`.
 
--   `META` - **Metadata**
-    Machine-readable status, IDs, timestamps, cross-links, and pack
-    ordering (index/packet/precedence).
+- `META` - **Metadata**
+  Machine-readable status, IDs, timestamps, cross-links, and pack
+  ordering (index/packet/precedence).
 
--   `LOG` - **Governance Log**
-    Human-readable log of notes, commentary, and outcomes. Typically
-    not part of a filed packet.
+- `LOG` - **Governance Log**
+  Human-readable log of notes, commentary, and outcomes. Typically
+  not part of a filed packet.
 
--   `DOC` - **Primary Document**
-    Default primary document when no specialised narrative type applies.
+- `DOC` - **Primary Document**
+  Default primary document when no specialised narrative type applies.
 
--   `REP` - **Report**
-    Audit report, incident report, review report.
+- `REP` - **Report**
+  Audit report, incident report, review report.
 
--   `EVD` - **Evidence**
-    Raw artefacts, exports, emails, screenshots, captures.
+- `EVD` - **Evidence**
+  Raw artefacts, exports, emails, screenshots, captures.
 
--   `IOC` - **Indicators**
-    Indicators of compromise, blocklists, rules, hashes, addresses.
+- `IOC` - **Indicators**
+  Indicators of compromise, blocklists, rules, hashes, addresses.
 
--   `POL` - **Policy**
-    Policy record content.
+- `POL` - **Policy**
+  Policy record content.
 
--   `DAT` - **Data**
-    Structured data attached to a record.
+- `DAT` - **Data**
+  Structured data attached to a record.
 
--   `DIA` - **Diagram**
-    Chart or diagram source definition using record-schema-chart format.
+- `DIA` - **Diagram**
+  Chart or diagram source definition using record-schema-chart format.
 
 > The canonical list of document type codes is maintained in
 > `doc-types.yaml` (record-schema-registry format). The list above is a
@@ -251,29 +255,28 @@ Each file starts with the proposal ID and a three-letter document type code:
 
 ### 3.2 Examples
 
--   Main memorandum
-    `DP-00001_MEM-full.md`
+- Main memorandum
+  `DP-00001_MEM-full.md`
 
--   Summary memorandum
-    `DP-00001_MEM-summarry.md`
+- Summary memorandum
+  `DP-00001_MEM-summarry.md`
 
 
--   On-chain execution bundle
-    `DP-00001_TX-main.json`
-    `DP-00001_TX-main.borsh`
+- On-chain execution bundle
+  `DP-00001_TX-main.json`
+  `DP-00001_TX-main.borsh`
 
--   Metadata
-    `DP-00001_META.yaml`
+- Metadata
+  `DP-00001_META.yaml`
 
--   Record index (per-record TOC)
-    `DP-00001_IND-index.md`
+- Record index (per-record TOC)
+  `DP-00001_IND-index.md`
 
--   Compiled filing packet (derived)
-    `DP-00001_PKT-filing.pdf`
+- Compiled filing packet (derived)
+  `DP-00001_PKT-filing.pdf`
 
--   Governance log
-    `DP-00001_LOG-governance.md`
-
+- Governance log
+  `DP-00001_LOG-governance.md`
 
 ### 3.3 Smart Contract Register / Registry (`REG`) documents
 
@@ -281,13 +284,14 @@ A `REG` document is the canonical smart contract register/registry
 required under §106(2) of the RMI Decentralized Autonomous Organizations
 Act 2022 (as amended).
 It lists every smart contract on Solana that falls within the DAO Act
-§106(2) classification for the Company, together with its program address, network,
-governance / upgrade mechanics, and cross-references to the proposal set.
+§106(2) classification for the Company, together with its program address,
+network, governance / upgrade mechanics, and cross-references to the
+proposal set.
 
 Each proposal that onboards, upgrades, or decommissions core contracts
 SHOULD:
 
--   Include a `REG` file named:
+- Include a `REG` file named:
 
 ```text
     <PROPOSAL_ID>_REG-smart-contract-registry.md
@@ -295,13 +299,13 @@ SHOULD:
 
 e.g. `DP-00001_REG-smart-contract-registry.md`.
 
--   State in a short preamble that the file "constitutes the Company's
-    smart contract registry for purposes of §106(2) of the DAO Act" and
-    that updates only take effect once approved by Resolution and, where
-    required, implemented via the relevant `TX` bundle.
+- State in a short preamble that the file "constitutes the Company's
+  smart contract registry for purposes of §106(2) of the DAO Act" and
+  that updates only take effect once approved by Resolution and, where
+  required, implemented via the relevant `TX` bundle.
 
--   Contain a single primary Markdown table with one row per governed
-    smart contract.
+- Contain a single primary Markdown table with one row per governed
+  smart contract.
 
 #### 3.3.1 Canonical table layout
 
@@ -315,23 +319,23 @@ The registry table MUST use the following columns in this order:
 
 You then add one row per program:
 
--   **Registry ID**
-    Stable row identifier (`REG-001`, `REG-002`, ...). When a contract is
-    superseded, keep the old ID in the registry and update the Notes /
-    Linked Record fields to show it is deprecated and what replaces it.
+- **Registry ID**
+  Stable row identifier (`REG-001`, `REG-002`, ...). When a contract is
+  superseded, keep the old ID in the registry and update the Notes /
+  Linked Record fields to show it is deprecated and what replaces it.
 
--   **Contract Name / Module**
-    Human-readable name of the contract or module (e.g. "Governance
-    Program", "Router", "Oracle").
+- **Contract Name / Module**
+  Human-readable name of the contract or module (e.g. "Governance
+  Program", "Router", "Oracle").
 
--   **Program Address (base58)**
-    Full Solana Program ID (base58). This MUST be the deployed Program ID
-    actually governing assets or governance, not a dev build or draft.
+- **Program Address (base58)**
+  Full Solana Program ID (base58). This MUST be the deployed Program ID
+  actually governing assets or governance, not a dev build or draft.
 
--   **Network / Cluster**
-    Exact Solana cluster (`mainnet-beta`, `devnet`, `localnet`, etc.).
-    Main governance is normally on `mainnet-beta`; test / staging entries
-    should be clearly labelled in Notes as non-governing.
+- **Network / Cluster**
+  Exact Solana cluster (`mainnet-beta`, `devnet`, `localnet`, etc.).
+  Main governance is normally on `mainnet-beta`; test / staging entries
+  should be clearly labelled in Notes as non-governing.
 
 - **Direct DAO Role (per §106(2))**
   Short description of how this program "directly manages, facilitates,
@@ -391,9 +395,9 @@ the authoritative text.
 For multipart records and filing packets, `META.yaml` also defines
 canonical assembly via:
 
--   `documents.index` (per-record TOC)
--   `assembly.pack[]` (ordered stitch list with `precedence`)
--   `assembly.packet` (derived compiled packet path, e.g. PDF)
+- `documents.index` (per-record TOC)
+- `assembly.pack[]` (ordered stitch list with `precedence`)
+- `assembly.packet` (derived compiled packet path, e.g. PDF)
 
 DAO-proposal-specific governance pins and vote/execution references
 may live under `extensions.dao_proposals.*`.
@@ -562,13 +566,18 @@ extensions:
   No vote fields required; track submission evidence instead.
 - **phase == formation**: entity formed/filed; terminal state for DP-00000.
   No vote fields required; track formation evidence instead.
-- **phase < voting**: `extensions.dao_proposals.governance.vote.reference` MAY be empty.
-- **phase >= voting**: `extensions.dao_proposals.governance.vote.reference` is REQUIRED.
-- **phase >= passed**: `extensions.dao_proposals.governance.passed_commit`, `extensions.dao_proposals.governance.passed_tag`,
-  `extensions.dao_proposals.governance.passed_pinned`, and `extensions.dao_proposals.governance.adopted_paths` are REQUIRED.
+- **phase < voting**: `extensions.dao_proposals.governance.vote.reference`
+  MAY be empty.
+- **phase >= voting**: `extensions.dao_proposals.governance.vote.reference`
+  is REQUIRED.
+- **phase >= passed**: `extensions.dao_proposals.governance.passed_commit`,
+  `extensions.dao_proposals.governance.passed_tag`,
+  `extensions.dao_proposals.governance.passed_pinned`, and
+  `extensions.dao_proposals.governance.adopted_paths` are REQUIRED.
 - **phase == executed**: `extensions.dao_proposals.governance.executed_commit`,
-  `extensions.dao_proposals.governance.executed_tag`, `extensions.dao_proposals.governance.executed_pinned` are
-  REQUIRED (plus `execution_txs` if applicable).
+  `extensions.dao_proposals.governance.executed_tag`,
+  `extensions.dao_proposals.governance.executed_pinned` are REQUIRED
+  (plus `execution_txs` if applicable).
 
 ### 4.3 Registry profile and governance extension
 
@@ -579,8 +588,10 @@ requirements, pin fields, adopted-text freeze, vote reference thresholds)
 live in the profile's `extensions.governance` block -- not in
 `record_constraints` -- per `registry.profile.schema.json`.
 
-The profile MAY also apply META overlay schemas (via `rules.meta_policies.overlay_schema_paths`) to define and validate
-registry-specific metadata extension blocks such as `extensions.dao_proposals.*`, while keeping the base META schema permissive.
+The profile MAY also apply META overlay schemas
+(via `rules.meta_policies.overlay_schema_paths`) to define and validate
+registry-specific metadata extension blocks such as
+`extensions.dao_proposals.*`, while keeping the base META schema permissive.
 
 
 
@@ -601,10 +612,10 @@ The DP series is formally registered in `dao-proposals-series.yaml`.
 
 ### 4.5 Text normalization (MANDATORY for adopted_paths)
 
-Files listed in `extensions.dao_proposals.governance.adopted_paths` are the adopted text surface
-frozen at `passed_tag` (see Section 4.4). To keep pinned text stable across
-editors/renderers, adopted text MUST avoid "smart punctuation" and
-ambiguous characters:
+Files listed in `extensions.dao_proposals.governance.adopted_paths` are the
+adopted text surface frozen at `passed_tag` (see Section 4.4). To keep
+pinned text stable across editors/renderers, adopted text MUST avoid
+"smart punctuation" and ambiguous characters:
 
 - Quotes: use straight ASCII quotes only: " and ' (no curly quotes).
 - Dashes:
@@ -689,8 +700,9 @@ This can be generated automatically from `META.yaml` files.
 - Adopted proposals MUST be canonically pinned via an **annotated git tag**
   and recorded in `META.yaml` + `LOG-governance.md` (see "Canonical
   pinning on adoption").
-- Files in `extensions.dao_proposals.governance.adopted_paths` MUST follow the text normalization
-  rules in Section 4.5 (no smart quotes; no en/em dashes).
+- Files in `extensions.dao_proposals.governance.adopted_paths` MUST follow
+  the text normalization rules in Section 4.5 (no smart quotes; no en/em
+  dashes).
 
 **Strongly recommended:**
 
