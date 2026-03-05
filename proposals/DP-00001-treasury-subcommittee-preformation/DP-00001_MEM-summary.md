@@ -35,7 +35,7 @@ requirement to onboard partners and lift caps for broader access to Solomon.
 
 - DAO members voting through the Governance System.
 - Treasury Subcommittee Designates (bios below):
-  Moo, Usman, Kru, Kollan.
+  Drew, Usman, Kru, Kollan.
   - Selection principles: Designates should (i) hold membership interests
     in the Company, and (ii) be member-professionals with demonstrated
     execution in relevant domains (e.g., DeFi builders/founders,
@@ -112,12 +112,16 @@ and only if a separate activation proposal (intended: DP-00003) is passed.
 
 The proposed Designates are as follows:
 
-### Moo
+### Drew
 
-**Founder [Elemental](https://elemental.fund/)** -- [@moothefarmer](https://x.com/moothefarmer) / [@elementaldefi](https://x.com/elementaldefi)
+ 01Resolved — @drew_12011 / @01Resolved
 
-Best known for identifying onchain yield opportunities early and
-communicating complex DeFi mechanics with precision.
+**Co-founder [01Resolved](https://www.01resolved.com/)** -- [@drew_12011](https://x.com/drew_12011) / [@01Resolved](https://x.com/01resolved)
+
+A crypto native finance leader with nearly a decade in the space,
+from CFO-stints, to investor and advisor roles, Drew is now building
+01Resolved which provides ownership coin treasury and decision market
+intelligence.
 
 ### Usman
 

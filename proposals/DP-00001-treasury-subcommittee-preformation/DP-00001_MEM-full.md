@@ -137,7 +137,7 @@ Any broader staking/threshold changes will be handled via a separate proposal.
 **RESOLVED:** The following Members are appointed as Treasury Subcommittee
 Designates effective upon adoption:
 
-- Moo | Founder @Elemental : [https://x.com/moothefarmer](https://x.com/moothefarmer)
+- Drew | Co-Founder @01Resolved : [https://x.com/drew_12011](https://x.com/drew_12011)
 - Usman | Founder @Oro : [https://x.com/theusmansal](https://x.com/theusmansal)
 - Kru | Founder @Umbra : [https://x.com/kru_tweets](https://x.com/kru_tweets)
 - Kollan | Co-Founder @MetaDAO: [https://x.com/metanallok](https://x.com/metanallok)
