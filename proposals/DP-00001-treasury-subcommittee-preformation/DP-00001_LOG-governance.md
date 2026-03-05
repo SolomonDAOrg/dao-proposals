@@ -7,6 +7,7 @@
 ## Pre-vote Notes
 
 - **2026-03-3** Initial draft created.
+- **2026-03-5** Draft text updated, placeholders completed.
 
 ---
 

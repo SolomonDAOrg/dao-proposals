@@ -9,20 +9,20 @@ title: Treasury Subcommittee (Pre-Formation) and Legal Budget
 slug: treasury-subcommittee-preformation
 
 entity_name: "SOLOMON DAO LLC"
-version: "1"
+version: "1.0.1"
 
 entity:
   legal_name: "SOLOMON DAO LLC"
   short_name: "SOLOMON"
 
 document:
-  version: "1"
+  version: "1.0.1"
   document_id: "DP-00001"
-  effective_date: "2026-03-03"
+  effective_date: "2026-03-05"
 
 status:
-  phase: draft
-  last_updated: 2026-03-03T00:00:00Z
+  phase: submitted
+  last_updated: 2026-03-05T00:00:00Z
 
 links:
   supersedes: []
@@ -47,7 +47,7 @@ documents:
 
 assembly:
   packet:
-    path: DP-00001_SOLOMON_DAO_LLC.pdf
+    path: DP-00001_Treasury-Subcommittee-Preformation.pdf
     label: Treasury Subcommittee (Pre-Formation) and Legal Budget
   pack:
     - precedence: 10
@@ -58,10 +58,12 @@ assembly:
       doc_type: MEM
       path: DP-00001_MEM-summary.md
       label: Treasury Subcommittee (Pre-Formation) and Legal Budget - Summary
+      short_label: Treasury Subcommittee - Summary
     - precedence: 30
       doc_type: MEM
       path: DP-00001_MEM-full.md
       label: Treasury Subcommittee (Pre-Formation) and Legal Budget
+      short_label: Treasury Subcommittee - Full
     - precedence: 120
       doc_type: LOG
       path: DP-00001_LOG-governance.md
@@ -69,8 +71,8 @@ assembly:
       include: false
 
 timeline:
-  opened_at: 2026-03-03T00:00:00Z
-  drafted_at: 2026-03-03T00:00:00Z
+  opened_at: 2026-03-05T00:00:00Z
+  drafted_at: 2026-03-05T00:00:00Z
 
 extensions:
   formatting:
