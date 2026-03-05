@@ -114,8 +114,6 @@ The proposed Designates are as follows:
 
 ### Drew
 
- 01Resolved — @drew_12011 / @01Resolved
-
 **Co-founder [01Resolved](https://www.01resolved.com/)** -- [@drew_12011](https://x.com/drew_12011) / [@01Resolved](https://x.com/01resolved)
 
 A crypto native finance leader with nearly a decade in the space,
