@@ -124,9 +124,9 @@ the DAO treasury to:
 - **Legal Budget Wallet:** `AHA8HMyQ957zJwEqtqCAs7xa16qGnbfaxD4JtVgSexBs`
 
 Informative note (non-binding): This proposal sets the team-sponsored
-proposal pass threshold to -300 bps and the non-team proposal pass threshold
-to +300 bps. 
-Any broader staking/threshold changes will be handled via a separate proposal.
+proposal pass threshold to -300 bps, the non-team proposal pass threshold
+to +300 bps and the minimum stake threshold from 500k -> 1.5M to align with
+the other cohort DAOs.
 
 ---
 
@@ -178,14 +178,13 @@ treasury assets.
 **RESOLVED:** On-chain execution for DP-00001 shall include only:
 
 - the Legal Budget transfer in §5.2.
-- the team-sponsored proposal pass threshold update (-300 bps) and the
-  non-team proposal pass threshold update (+300 bps).
+- the team-sponsored proposal pass threshold update (-300 bps), the
+  non-team proposal pass threshold update (+300 bps) and the minimum stake
+  threshold from 500k -> 1.5M to align with the other cohort DAOs.
 
 **RESOLVED:** On-chain execution for DP-00001 shall not include:
 
 - any buyback operations,
-- any other governance threshold updates (staking requirements or pass
-  thresholds) beyond the team-sponsored proposal pass threshold update above,
 - any creation/designation of company treasury accounts/vaults,
 - any delegation of treasury signing authority to Designates,
 - any treasury deployment transfers beyond the Legal Budget.
