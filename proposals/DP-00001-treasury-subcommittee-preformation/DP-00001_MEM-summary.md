@@ -153,8 +153,9 @@ This proposal also:
 **Key points:**
 - The amount is fixed and capped by this proposal. Any further legal or
   compliance budget in the future would need its own governance action.
-- This proposal updates the team-sponsored proposal pass threshold from
-  1.5% -> 3% to align with the other cohort DAOs.
+- This proposal sets the team-sponsored proposal pass threshold to -300 bps
+  and the non-team proposal pass threshold to +300 bps to align with the
+  other cohort DAOs.
 - The $150,000 is intended to cover ongoing Company-facing legal and
   compliance costs while maintaining a buffer.
 - These funds are restricted to legal, regulatory, and related compliance
