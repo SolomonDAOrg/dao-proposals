@@ -15,6 +15,17 @@ The conventions below are recommended but not mandatory. Proposals that do
 not follow this scheme are still valid if they pass governance; they may,
 however, be harder to index and audit.
 
+## Looking for compiled PDFs?
+
+If you want a ready-to-read compiled artefact (PDF) of a proposal packet
+(or other governance documents), use the **compiled-documents** mirror repo:
+
+- [https://github.com/SolomonDAOrg/compiled-documents](https://github.com/SolomonDAOrg/compiled-documents)
+
+This repo remains the canonical source for proposal text, provenance, tags,
+and execution artefacts. The compiled repo is a distribution mirror for
+human readers who are not building packets locally.
+
 ## Canonical pinning on adoption (MANDATORY)
 
 When a proposal is **adopted** (i.e. it reaches `status.phase` = `passed` or
