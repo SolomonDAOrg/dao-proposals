@@ -166,6 +166,21 @@ If adopted, this proposal means:
 - nobody can use or redirect that reserve on discretion alone; and
 - a future Incentives Subcommittee can be voted in later to steward it.
 
+
+---
+
+## Links
+
+- Full normative resolution text (controls if there is any conflict
+  with this summary):
+  [DP-00002_MEM-full.md](https://github.com/SolomonDAOrg/dao-proposals/blob/main/proposals/DP-00002-acquisition-restricted-incentives-framework/DP-00002_MEM-full.md)
+- Compiled Company Agreement PDF:
+  [Company_Agreement_SOLOMON_DAO_LLC.pdf](https://github.com/SolomonDAOrg/compiled-documents/blob/main/company-agreement/Company_Agreement_SOLOMON_DAO_LLC.pdf)
+- Proposal repository (canonical history + execution artefacts):
+  [https://github.com/SolomonDAOrg/dao-proposals](https://github.com/SolomonDAOrg/dao-proposals)
+- SOP Registry (canonical):
+  [https://github.com/SolomonDAOrg/sop-registry](https://github.com/SolomonDAOrg/sop-registry)
+
 ---
 
 **Disclaimer (Governance Proposal; No Professional Advice).**
