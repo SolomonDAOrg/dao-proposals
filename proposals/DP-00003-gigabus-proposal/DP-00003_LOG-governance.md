@@ -34,7 +34,7 @@
   licensing, and treasury memoranda.
 
 - **2026-03-28** Clarified that the Licensing Subcommittee approves Company-side
-  Protocol IP licenses only and does not direct downstream opcos, licensees, or
+  Protocol IP licenses only and does not direct downstream entities, licensees, or
   implementers on registration, licensing posture, compliance posture, treasury,
   or operations.
 
@@ -137,6 +137,18 @@
   or coordination mechanics.
 
 - **2026-04-17** Applied formatting rules.
+
+- **2026-04-18** Finalization and addition of Dust Cover.
+
+- **2026-04-18** Revised the treasury-control structure in the treasury
+  memorandum, omnibus memorandum, and summary memorandum so the Company
+  Treasury Vault is a **3 of 6** multisignature arrangement comprising the four
+  Treasury Subcommittee-member signers, the main DAO / Governance System
+  address `DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA` retained as a signer that
+  may act only through valid Governance System approval, and a backup-only
+  continuity signer subject to a **2 day** timelock, preserving the DAO as a
+  signer on the secondary multisig while maintaining the continuity-control
+  path.
 
 ---
 

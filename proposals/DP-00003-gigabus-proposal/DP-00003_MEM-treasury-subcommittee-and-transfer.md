@@ -132,12 +132,14 @@ is satisfied.
 
 **RESOLVED:** Formation evidence must be published, linked, or hash-anchored as:
 
-- certificate or registry evidence link, and or
+- certificate or registry evidence link; or
 
 - content hash or other record anchor of the formation evidence.
 
 **Posting-time field:**
-- formation evidence link and or hash: `[TO BE FILLED AT POSTING TIME]`
+- formation evidence link or hash: `index:
+  https://github.com/SolomonDAOrg/compiled-documents/blob/main/company-agreement/Company_Agreement_SOLOMON_DAO_LLC_IND-index.md
+  | commit: d3e6999a5edd2413857516f450c90faab60fa5b9`
 
 ---
 
@@ -341,11 +343,19 @@ Treasury Account** and as the **Company Treasury Vault** for purposes of this me
 
 ### 6.2 Signers, threshold, and continuity control
 
-**RESOLVED:** The Company Treasury Vault shall operate as a **3 of 5** multisignature arrangement.
+**RESOLVED:** The Company Treasury Vault shall operate as a **3 of 6** multisignature arrangement.
 
-**RESOLVED:** Four of the five signers shall be the Treasury Subcommittee Members confirmed in §5.4.
-The fifth signer may be maintained as a backup-only continuity signer solely to reduce operational
-bricking risk.
+**RESOLVED:** Four of the six signers shall be the Treasury Subcommittee Members confirmed in §5.4.
+
+**RESOLVED:** The signer set shall also include the main DAO / Governance System address
+`DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA` so that the DAO remains a signer on the Company
+Treasury Vault for governance-continuity and ownership-preservation purposes. That signer may act
+only through a valid Governance System approval or other valid on-chain governance act and does not,
+by reason only of inclusion in the signer set, become an ordinary-course Treasury Subcommittee
+signer or acquire any unilateral or discretionary treasury authority.
+
+**RESOLVED:** The sixth signer may be maintained as a backup-only continuity signer solely to reduce
+operational bricking risk.
 
 **RESOLVED:** Any backup-only continuity signer shall be subject to a minimum **2 day** timelock and
 shall not by reason only of that role acquire any independent policy-setting, approval, override, or
@@ -359,7 +369,8 @@ control record, subject to the Treasury Operating Policy and any later valid Res
 continuity signer, role separation, rotation procedures, or related control mechanics would
 reasonably prejudice security, those details may be withheld from unrestricted public disclosure and
 maintained through controlled records, hash commitments, or other evidentiary pathways consistent
-with the Company Agreement.
+with the Company Agreement, except for any public address or signer role expressly stated in this
+memorandum.
 
 ### 6.3 Smart Contract Registry update and SOP Registry recording
 
@@ -423,7 +434,7 @@ authority is constrained by the following minimum controls:
    prejudice security or Company interests.
 
 8. **Revocation and governance override:** Governance System may revoke or modify permissions,
-   rotate signers, and or freeze operations via subsequent proposal, emergency process, or lawful
+   rotate signers, or freeze operations via subsequent proposal, emergency process, or lawful
    protective action to the extent permitted by the Company Agreement.
 
 9. **No leverage:** no borrowing, margin, or leverage unless explicitly authorized by later

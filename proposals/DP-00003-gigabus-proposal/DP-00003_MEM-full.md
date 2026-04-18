@@ -69,14 +69,16 @@ This Resolution does six things:
 4. ratifies and activates the **Treasury Subcommittee**, styled **"The Illuminated,"** for
    designated **Company Treasury Account(s)** only, designates the Squads v4 multisig account
    `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr` titled `SOLOMON TREASURY SUBCOMMITTEE` as the
-   Company Treasury Vault and a Company Treasury Account, confirms a **3 of 5** signer structure in
-   which four signers are Treasury Subcommittee Members and the fifth may be a backup-only
-   continuity signer subject to a **2 day** timelock, authorizes an initial transfer of **4,500,000
-   USDC** from the main DAO treasury into that vault, clarifies that the applicable per-period
-   treasury spend limit applies on a shared aggregate basis across that treasury lane without
-   duplication, requires a corresponding Smart Contract Registry update to be recorded through the
-   **SOP Registry**, and preserves a confidentiality-first operating posture for security-sensitive
-   treasury details, subject to the Formation Condition and the attached treasury memorandum;
+   Company Treasury Vault and a Company Treasury Account, confirms a **3 of 6** signer structure in
+   which four signers are Treasury Subcommittee Members, one signer is the main DAO / Governance
+   System address `DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA` acting only through valid
+   Governance System approval, and the sixth may be a backup-only continuity signer subject to a
+   **2 day** timelock, authorizes an initial transfer of **4,500,000 USDC** from the main DAO
+   treasury into that vault, clarifies that the applicable per-period treasury spend limit applies
+   on a shared aggregate basis across that treasury lane without duplication, requires a
+   corresponding Smart Contract Registry update to be recorded through the **SOP Registry**, and
+   preserves a confidentiality-first operating posture for security-sensitive treasury details,
+   subject to the Formation Condition and the attached treasury memorandum;
 
 5. includes a memorandum that clarifies and widens, on a bounded basis, the permitted uses of the
    capped Legal Budget previously released in DP-00001 so that it may also be used for audits,
@@ -219,7 +221,7 @@ questions.
 
 The expected posting-time fields are:
 
-- formation evidence link, registry entry, and or content hash;
+- formation evidence link, registry entry, or content hash;
 
 - any public Treasury Operating Policy references, confidential parameter-record identifiers or
   hashes where appropriate, and any reporting cadence or reporting method adopted with the treasury
@@ -270,11 +272,13 @@ The intended sequencing after adoption is:
    and later ratification pathways where required;
 
 4. treat the treasury memorandum as the treasury activation step, using the designated Squads v4
-   Company Treasury Vault at `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`, the stated **3 of 5**
-   control architecture with a backup-only continuity signer subject to a **2 day** timelock, the
-   initial movement path from the main DAO treasury into that vault, the applicable per-period
-   treasury cap on a shared aggregate no-duplication basis across that treasury lane, and the
-   corresponding Smart Contract Registry update to be recorded through the SOP Registry;
+   Company Treasury Vault at `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`, the stated **3 of 6**
+   control architecture with the main DAO / Governance System address
+   `DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA` retained as a signer and a backup-only continuity
+   signer subject to a **2 day** timelock, the initial movement path from the main DAO treasury
+   into that vault, the applicable per-period treasury cap on a shared aggregate no-duplication
+   basis across that treasury lane, and the corresponding Smart Contract Registry update to be
+   recorded through the SOP Registry;
 
 5. treat the legal-budget memorandum as the bounded clarification of the DP-00001 Legal Budget so
    that the same capped wallet may be used for audits, documented payment, settlement, or

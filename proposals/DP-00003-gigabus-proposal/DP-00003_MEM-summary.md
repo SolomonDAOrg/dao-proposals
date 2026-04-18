@@ -21,11 +21,13 @@ matters only and not as a downstream operating or registration body; it ratifies
 Treasury Subcommittee, styled **"The Illuminated,"** following the pre-formation path already
 adopted in DP-00001, for designated Company Treasury Account(s) only, designates the Squads v4
 multisig account `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr` titled `SOLOMON TREASURY
-SUBCOMMITTEE` as the Company Treasury Vault, confirms a **3 of 5** control structure with four
-Treasury Subcommittee-member signers and one backup-only continuity signer subject to a **2 day**
-timelock, authorizes an initial transfer of **4,500,000 USDC** from the main DAO treasury into that
-vault, applies the same applicable per-period treasury spend limit across that treasury lane on a
-shared no-duplication basis, requires a corresponding Smart Contract Registry update through the
+SUBCOMMITTEE` as the Company Treasury Vault, confirms a **3 of 6** control structure with four
+Treasury Subcommittee-member signers, the main DAO / Governance System address
+`DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA` retained as a signer that may act only through valid
+Governance System approval, and one backup-only continuity signer subject to a **2 day** timelock,
+authorizes an initial transfer of **4,500,000 USDC** from the main DAO treasury into that vault,
+applies the same applicable per-period treasury spend limit across that treasury lane on a shared
+no-duplication basis, requires a corresponding Smart Contract Registry update through the
 **SOP Registry**, and preserves a confidentiality-first operating posture for security-sensitive
 treasury details; it also now makes explicit that drafts, summaries, chats, registry notes, and
 other facilitative or partial materials do not amend or override the governing instruments, that
@@ -170,7 +172,7 @@ It keeps the licensing lane separate. The Licensing Subcommittee exists to revie
 Protocol IP licensing matters within the existing IP framework, maintain licensing-side records, and
 use bounded delegated authority where permitted. It is not an operational body, and it does not
 collapse licensing into any other lane. It approves Company-side IP licenses only; it does not and
-shall not direct downstream opcos, licensees, or implementers on registration, licensing strategy,
+shall not direct downstream entities, licensees, or implementers on registration, licensing strategy,
 treasury, or day-to-day operations.
 
 That attached text also retains optional Professional Determinations, the no-single-person rule,
@@ -191,17 +193,21 @@ It designates the Squads v4 multisig account `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSL
 Vault, ratifies and activates the Treasury Subcommittee, styled **"The Illuminated,"** for
 designated Company Treasury Account(s) only, confirms the DP-00001 Designates (Drew, Usman, Kru, and
 Kollan) as the Treasury Subcommittee members under this post-formation memorandum, confirms a **3 of
-5** control structure with one backup-only continuity signer subject to a **2 day** timelock,
-authorizes a transfer of **4,500,000 USDC** from the main DAO treasury into the Company Treasury
-Vault, clarifies that use of the main DAO treasury and the Company Treasury Vault within the same
-approved treasury lane counts toward one shared per-period treasury spend limit without duplication,
-requires a corresponding Smart Contract Registry update to be recorded through the **SOP Registry**,
-and keeps the detailed operating posture confidential where disclosure would prejudice security.
+6** control structure with the main DAO / Governance System address
+`DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA` retained as a signer that may act only through valid
+Governance System approval and with one backup-only continuity signer subject to a **2 day**
+timelock, authorizes a transfer of **4,500,000 USDC** from the main DAO treasury into the Company
+Treasury Vault, clarifies that use of the main DAO treasury and the Company Treasury Vault within
+the same approved treasury lane counts toward one shared per-period treasury spend limit without
+duplication, requires a corresponding Smart Contract Registry update to be recorded through the
+**SOP Registry**, and keeps the detailed operating posture confidential where disclosure would
+prejudice security.
 
 This part is intentionally hard-gated. Formation evidence must exist. The public memorandum now
-states the vault address and the core **3 of 5** / **2 day** backup continuity structure, while
-controlled-record details beyond that may still need to be linked by authority evidence. Not every
-treasury operating detail is intended for unrestricted public posting. The updated text now also
+states the vault address, the main DAO / Governance System signer, and the core **3 of 6** /
+**2 day** backup continuity structure, while controlled-record details beyond that may still need to
+be linked by authority evidence. Not every treasury operating detail is intended for unrestricted
+public posting. The updated text now also
 makes clear that informal materials, partial extracts, and historical practice do not override the
 adopted treasury lane, that no one acquires treasury authority merely by role, access, or
 association, that no pass-through or holder-style rights arise merely from interacting with the

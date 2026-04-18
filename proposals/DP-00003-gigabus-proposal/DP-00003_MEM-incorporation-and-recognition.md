@@ -218,7 +218,26 @@ agency, operational, or other right in respect of the Company, its property, its
 treasury, the Protocol IP, any agreement or instrument entered into by the Company, or any
 downstream person, activity, or implementation.
 
-### 4.7 References and identifiers are recordkeeping only
+### 4.7 No Company-facing rights from historical involvement or extra-contractual association
+
+**RESOLVED:** No person's historical or extra-contractual association with the formation history of
+the Company, with Protocol IP, with any implementation, or with any related public, social,
+developmental, launch, testing, funding, promotional, administrative, or community activity shall
+by itself create or evidence any right, title, claim, entitlement, office, consent right, veto
+right, distribution right, beneficial interest, reliance right, enforcement right, allocation,
+benefit, or other Company-facing right in respect of the Company, any Membership Interest, Company
+Property, Company Treasury Accounts, the Protocol IP, or any agreement, role, register entry, or
+action of the Company.
+
+**RESOLVED:** Any Company-facing right or recognition must arise, if at all, only under the Company
+Agreement, through a Membership Interest validly recognized under the Company Agreement, or under a
+separate written instrument validly entered into or expressly assumed by the Company in its own
+name, right, capacity, and authority. No private arrangement, historical understanding, personal
+contribution history, community status, social-media or chat participation, prior funding, or
+similar circumstance shall by itself bind the Company or be enforceable through the Governance
+System.
+
+### 4.8 References and identifiers are recordkeeping only
 
 **RESOLVED:** References in the governance record to the Company, the Company Agreement, the
 Protocol IP, any licence, any treasury account, any wallet, address, domain, URL, repository,
@@ -231,7 +250,7 @@ by itself be used to attribute operational activity to the Company, to attribute
 another person, to widen the Company's role, to create recourse or reliance rights, or to override
 the actual legal effect of the underlying instrument or facts.
 
-### 4.8 No later argument from silence
+### 4.9 No later argument from silence
 
 **RESOLVED:** The DAO records that the absence of an earlier standalone on-chain acknowledgment of
 formation shall not by itself be used as a basis to argue that the Members did not agree to the
@@ -239,7 +258,7 @@ Company existing, did not agree that governance would proceed through the formed
 agree that the Company Agreement governs post-formation Company affairs to the extent stated in the
 Company Agreement and applicable law.
 
-### 4.9 Supplementary record only
+### 4.10 Supplementary record only
 
 **RESOLVED:** This Section 4 is supplementary and evidentiary only. It does not enlarge Member
 rights, reduce mandatory-law limits, or override the actual formation mechanics, admission
@@ -262,7 +281,7 @@ reference to the `compiled-documents/company-agreement` record set, including
 filed, stamped, certified, and related Marshall Islands return documents are indexed together.
 
 **Posting-time field:**
-- formation evidence link, index link, and or hash: `index:
+- formation evidence link, index link, or hash: `index:
   https://github.com/SolomonDAOrg/compiled-documents/blob/main/company-agreement/Company_Agreement_SOLOMON_DAO_LLC_IND-index.md
   | commit: d3e6999a5edd2413857516f450c90faab60fa5b9`
 

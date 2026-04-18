@@ -18,7 +18,7 @@ internal body for Protocol IP licensing matters and ties that body directly into
 IP License Framework, Intellectual Property Registry, IP License & Assignment Register, Counterparty
 Agreements Register, and SOP Registry architecture. It does not transfer title to Protocol IP, does
 not make the Company an operator of any licensee business, does not authorize the Licensing
-Subcommittee to direct any downstream opco, licensee, or implementer on registration, licensing
+Subcommittee to direct any downstream entity, licensee, or implementer on registration, licensing
 posture, compliance posture, or operations, does not collapse the licensing lane into the treasury
 lane or any downstream operating lane, and does not create standing discretionary power in the Head
 Steward beyond the narrow execution pathway expressly stated here.
@@ -245,7 +245,7 @@ Framework, the Licensing Subcommittee may:
 - operate, control, administer, maintain, or support any Implementation, service, product,
   deployment, or licensee business;
 
-- direct, require, approve in an operational capacity, or otherwise control any downstream opco,
+- direct, require, approve in an operational capacity, or otherwise control any downstream entity,
   licensee, or implementer in relation to corporate formation, regulatory registration, licensing
   applications, jurisdictional exclusions or inclusions, treasury, customer handling, staffing,
   compliance operations, or day-to-day business conduct;
@@ -600,7 +600,7 @@ relevant vote to the extent required by later governance action or by the applic
 separate capacity and on that person's own independent judgment as a DAO-side Subcommittee member
 under the Company Agreement and applicable DAO process. Service on the Licensing Subcommittee does
 not by itself make the member the agent, nominee, proxy, concealed representative, or transmission
-belt of any licensee, downstream opco, implementer, counterparty, or other person.
+belt of any licensee, downstream entity, implementer, counterparty, or other person.
 
 **RESOLVED:** Common status as Members of the Company, common service on the Licensing Subcommittee,
 discussion, persuasion, aligned views, meeting participation, draft circulation, historical
