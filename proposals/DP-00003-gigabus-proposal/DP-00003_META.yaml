@@ -1,0 +1,159 @@
+schema: record-schema
+schema_version: 1
+
+id: DP-00003
+series_code: DP
+series: 3
+
+title: Gigabus Proposal
+slug: gigabus-proposal
+
+entity_name: "SOLOMON DAO LLC"
+version: "1.0.12"
+
+entity:
+  legal_name: "SOLOMON DAO LLC"
+  short_name: "SOLOMON"
+
+document:
+  version: "1.0.12"
+  document_id: "DP-00003"
+  effective_date: "2026-04-15"
+
+status:
+  phase: draft
+  last_updated: 2026-04-17T20:00:00Z
+
+links:
+  supersedes: []
+  superseded_by: []
+  related: []
+
+documents:
+  primary:
+    - path: DP-00003_MEM-summary.md
+      label: Gigabus Proposal - Summary
+    - path: DP-00003_MEM-full.md
+      label: Gigabus Proposal
+  secondary:
+    - path: DP-00003_MEM-incorporation-and-recognition.md
+      label: Incorporation Recognition, Governance Acknowledgment, and Marshall Islands Record
+    - path: DP-00003_MEM-licensing-subcommittee.md
+      label: Licensing Subcommittee
+    - path: DP-00003_MEM-treasury-subcommittee-and-transfer.md
+      label: Treasury Subcommittee Ratification, Company Treasury Account Designation, and Initial Treasury Transfer
+    - path: DP-00003_MEM-legal-budget-clarification-and-bounded-use.md
+      label: Legal Budget Clarification, Approved Use Expansion, and Spending Boundaries
+    - path: DP-00003_OP-00001-initial-tertiary-instrument-ratification.md
+      label: "Operational Pack No. 00001: Initial Tertiary Instrument Ratification"
+  tertiary: []
+  supplemental: []
+  log:
+    path: DP-00003_LOG-governance.md
+    label: Governance Log
+  index:
+    path: DP-00003_IND-index.md
+    label: Record Index (Table of Contents)
+
+assembly:
+  packet:
+    path: DP-00003_Gigabus-Proposal.pdf
+    label: Gigabus Proposal
+    dust_cover:
+      path: DP-00003_COV.svg
+  pack:
+    - precedence: 10
+      doc_type: IND
+      path: DP-00003_IND-index.md
+      label: Index / Table of Contents
+      include: false
+    - precedence: 20
+      doc_type: MEM
+      path: DP-00003_MEM-summary.md
+      label: Gigabus Proposal - Summary
+      short_label: "DP-00003: GIGABUS - SUMMARY"
+    - precedence: 30
+      doc_type: MEM
+      path: DP-00003_MEM-full.md
+      label: Gigabus Proposal
+      short_label: "DP-00003: GIGABUS - FULL"
+    - precedence: 40
+      doc_type: MEM
+      path: DP-00003_MEM-incorporation-and-recognition.md
+      label: Incorporation Recognition, Governance Acknowledgment, and Marshall Islands Record
+      short_label: "DP-00003: INCORPORATION RECOGNITION"
+    - precedence: 50
+      doc_type: MEM
+      path: DP-00003_MEM-licensing-subcommittee.md
+      label: Licensing Subcommittee
+      short_label: "DP-00003: LICENSING SUBCOMMITTEE"
+    - precedence: 60
+      doc_type: MEM
+      path: DP-00003_MEM-treasury-subcommittee-and-transfer.md
+      label: Treasury Subcommittee Ratification, Company Treasury Account Designation, and Initial Treasury Transfer
+      short_label: "DP-00003: TREASURY SUBCOMMITTEE"
+    - precedence: 70
+      doc_type: MEM
+      path: DP-00003_MEM-legal-budget-clarification-and-bounded-use.md
+      label: Legal Budget Clarification, Approved Use Expansion, and Spending Boundaries
+      short_label: "DP-00003: LEGAL BUDGET CLARIFICATION"
+    - precedence: 80
+      doc_type: OP
+      path: DP-00003_OP-00001-initial-tertiary-instrument-ratification.md
+      label: "Operational Pack No. 00001: Initial Tertiary Instrument Ratification"
+      short_label: "DP-00003: OP-00001"
+    - precedence: 120
+      doc_type: LOG
+      path: DP-00003_LOG-governance.md
+      label: Governance Log
+      short_label: "DP-00003: GOVERNANCE LOG"
+      include: false
+
+timeline:
+  opened_at: 2026-03-28T00:00:00Z
+  drafted_at: 2026-04-17T00:00:00Z
+
+extensions:
+  formatting:
+    profile: canonical-ascii
+    document_kind: proposal
+
+  language:
+    locale: en-US
+
+  rendering:
+    family: dao-proposals
+    pack_ids:
+      - dao-proposals-render-v1
+
+  dao_proposals:
+    governance:
+      proposal_number: 3
+      proposer: null
+      squads_dao_address: DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA
+
+      passed_commit: null
+      passed_tag: null
+      passed_pinned: null
+      adopted_paths: []
+      vote_reference: null
+      vote_tx: null
+      discussion_url: null
+      execution_txs: []
+
+    result:
+      outcome: pending_submission
+      for_votes: null
+      against_votes: null
+      abstain_votes: null
+      quorum_reached: null
+      notes: "Gigabus package combining formation recognition, licensing, treasury activation, shared-cap no-duplication treasury treatment across the main DAO treasury and Company Treasury Vault for the same approved lane, bounded legal-budget clarification, and a registry-linked Operational Pack that ratifies SOP-00001 and SOP-00002 by identifier plus registry path and/or content identifier."
+
+authority:
+  domain: company
+  class: resolution-only
+  notes: >
+    Draft proposal establishing a clean post-formation governance record,
+    standing licensing-side architecture, treasury-side activation path,
+    confidentiality-conscious treasury operating framework, and bounded
+    legal-budget clarification while preserving lane separation.
