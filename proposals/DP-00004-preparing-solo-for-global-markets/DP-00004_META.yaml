@@ -1,0 +1,122 @@
+schema: record-schema
+schema_version: 1
+
+id: DP-00004
+series_code: DP
+series: 4
+
+title: Preparing SOLO for Global Markets
+slug: preparing-solo-for-global-markets
+
+entity_name: "SOLOMON DAO LLC"
+version: "1.0.0"
+
+entity:
+  legal_name: "SOLOMON DAO LLC"
+  short_name: "SOLOMON"
+
+document:
+  version: "1.0.0"
+  document_id: "DP-00004"
+  effective_date: "2026-09-04"
+
+status:
+  phase: draft
+  last_updated: 2026-09-04T20:00:00Z
+
+links:
+  supersedes: []
+  superseded_by: []
+  related: []
+
+documents:
+  primary:
+    - path: DP-00004_MEM-summary.md
+      label: Preparing SOLO for Global Markets - Summary
+    - path: DP-00004_MEM-full.md
+      label: Preparing SOLO for Global Markets
+  tertiary: []
+  supplemental: []
+  log:
+    path: DP-00004_LOG-governance.md
+    label: Governance Log
+  index:
+    path: DP-00004_IND-index.md
+    label: Record Index (Table of Contents)
+
+assembly:
+  packet:
+    path: DP-00004_preparing-solo-for-global-markets.pdf
+    label: Preparing SOLO for Global Markets
+    dust_cover:
+      path: DP-00004_COV.svg
+  pack:
+    - precedence: 10
+      doc_type: IND
+      path: DP-00004_IND-index.md
+      label: Index / Table of Contents
+      include: false
+    - precedence: 20
+      doc_type: MEM
+      path: DP-00004_MEM-summary.md
+      label: Preparing SOLO for Global Markets - Summary
+      short_label: "DP-00004: SOLO FOR GLOBAL MARKETS - SUMMARY"
+    - precedence: 30
+      doc_type: MEM
+      path: DP-00004_MEM-full.md
+      label: Preparing SOLO for Global Markets
+      short_label: "DP-00004: SOLO FOR GLOBAL MARKETS - FULL"
+    - precedence: 40
+      doc_type: LOG
+      path: DP-00004_LOG-governance.md
+      label: Governance Log
+      short_label: "DP-00004: GOVERNANCE LOG"
+      include: false
+
+timeline:
+  opened_at: 2026-09-04T00:00:00Z
+  drafted_at: 2026-09-04T00:00:00Z
+
+extensions:
+  formatting:
+    profile: canonical-ascii
+    document_kind: proposal
+
+  language:
+    locale: en-US
+
+  rendering:
+    family: dao-proposals
+    pack_ids:
+      - dao-proposals-render-v1
+
+  dao_proposals:
+    governance:
+      proposal_number: 4
+      proposer: null
+      squads_dao_address: DzYtzoNvPbyFCzwZA6cSm9eDEEmxEB9f8AGkJXUXgnSA
+
+      passed_commit: null
+      passed_tag: null
+      passed_pinned: null
+      adopted_paths: []
+      vote_reference: null
+      vote_tx: null
+      discussion_url: null
+      execution_txs: []
+
+    result:
+      outcome: pending_submission
+      for_votes: null
+      against_votes: null
+      abstain_votes: null
+      quorum_reached: null
+      notes:  "Proposal authorizing withdrawal of the DAO's entire Meteora DAMM v2 SOLO-USDC liquidity position and transfer of all SOLO and USDC received to the Company Treasury Vault; any subsequent deployment requires separate governance approval."
+
+authority:
+  domain: company
+  class: resolution-only
+  notes: >
+    Draft proposal authorizing withdrawal of the DAO's entire Meteora DAMM v2
+    SOLO-USDC liquidity position and transfer of all SOLO and USDC received to
+    the Company Treasury Vault, without authorizing any subsequent deployment.

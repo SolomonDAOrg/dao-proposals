@@ -8,6 +8,7 @@ See `DISCLAIMER.md`. Canonical adopted text is pinned by annotated git tag; see 
 | DP-00001 | Treasury Subcommittee (Pre-Formation) and Legal Budget | submitted | DP-00001-treasury-subcommittee-preformation/ | —          | —              |
 | DP-00002 | SOLO Buyback Framework and Governance Threshold Update | draft | TBD | —          | —              |
 | DP-00003 | Post-Formation Treasury Subcommittee Activation; Company Treasury Account Designation; Initial Treasury Transfer | draft | TBD | —          | —              |
+| DP-00004 | Preparing SOLO for Global Markets | draft | TBD | —          | —              |
 
 - **Canonical pins:** proposals that pass/executed MUST be pinned with annotated tags (multi-stage tags: `passed_tag` and (if applicable) `executed_tag`) and recorded in `*_META.yaml`.
 - **Freeze surface:** `*_META.yaml` MUST list `governance.adopted_paths` once passed; changes inside that surface require a new proposal.
