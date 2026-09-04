@@ -73,7 +73,8 @@ will require separate governance approval.
 - **Destination:** Company Treasury Vault at `98SPcyUZ2rqM2dgjCqqSXS4gJrNTLSNUAAVCF38xYj9u`
 - **SOLO Mint:** `SoLo9oxzLDpcq1dpqAgMwgce5WqkRDtNXK7EPnbmeta`
 - **USDC Mint:** `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`
-- **Execution Method:** Standard Meteora DAMM v2 withdrawal instructions followed by transfer to the
+- **Execution Method:** Standard Meteora DAMM v2 withdrawal instructions followed by transfer to
+  the Company Treasury Vault
 - **Future Use:** Potential broader exchange access, professional market-making arrangements, new
   trading venues, ecosystem rewards, and other strategic initiatives, subject in every case to
   separate governance approval
