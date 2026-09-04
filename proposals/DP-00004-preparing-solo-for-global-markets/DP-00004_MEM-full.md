@@ -66,7 +66,7 @@ executes successfully, the operative clauses below are effective as stated.
 ## 3. Definitions
 
 1. **"Company Treasury Vault"** means the treasury vault at
-   `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`.
+   `98SPcyUZ2rqM2dgjCqqSXS4gJrNTLSNUAAVCF38xYj9u`.
 
 2. **"Execution Bundle"** means the on-chain instructions that implement the
    withdrawal and transfer authorized by this Resolution through the admin
@@ -188,7 +188,7 @@ attached to this proposal.
 
 **RESOLVED:** The Execution Bundle shall transfer all Withdrawn Assets promptly
 to the Company Treasury Vault at
-`8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`.
+`98SPcyUZ2rqM2dgjCqqSXS4gJrNTLSNUAAVCF38xYj9u`.
 
 Informative note (non-binding): Execution through the admin function via
 MetaDAO will use standard Meteora DAMM v2 withdrawal instructions followed

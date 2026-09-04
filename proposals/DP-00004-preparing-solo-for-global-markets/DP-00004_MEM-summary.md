@@ -70,7 +70,7 @@ will require separate governance approval.
   through ordinary pool activity
 - **Assets to Be Received:** All SOLO and USDC attributable to the DAO's liquidity position at
   execution
-- **Destination:** Company Treasury Vault at `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`
+- **Destination:** Company Treasury Vault at `98SPcyUZ2rqM2dgjCqqSXS4gJrNTLSNUAAVCF38xYj9u`
 - **SOLO Mint:** `SoLo9oxzLDpcq1dpqAgMwgce5WqkRDtNXK7EPnbmeta`
 - **USDC Mint:** `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`
 - **Execution Method:** Standard Meteora DAMM v2 withdrawal instructions followed by transfer to the
@@ -117,7 +117,7 @@ publication and execution. This will be executed through the admin function via 
 proposal authorizes that specific action via the memo instruction attached to this proposal.
 
 Resolved further, that the Execution Bundle shall transfer all Withdrawn Assets promptly to the
-Company Treasury Vault at `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`.
+Company Treasury Vault at `98SPcyUZ2rqM2dgjCqqSXS4gJrNTLSNUAAVCF38xYj9u`.
 
 ---
 
