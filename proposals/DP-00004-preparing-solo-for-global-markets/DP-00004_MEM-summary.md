@@ -185,7 +185,7 @@ If adopted, this proposal means:
   [DP-00004_MEM-full.md](https://github.com/SolomonDAOrg/dao-proposals/blob/main/proposals/DP-00004-preparing-solo-for-global-markets/DP-00004_MEM-full.md)
 
 - Compiled proposal PDF:
-  [DP-00004_preparing-solo-for-global-markets.pdf](https://github.com/SolomonDAOrg/dao-proposals/blob/main/proposals/DP-00004-preparing-solo-for-global-markets/DP-00004_preparing-solo-for-global-markets.pdf)
+  [DP-00004_preparing-solo-for-global-markets.pdf](https://github.com/SolomonDAOrg/compiled-documents/blob/main/proposals/DP-00004/DP-00004_preparing-solo-for-global-markets.pdf)
 
 - Proposal repository (canonical history + execution artefacts):
   [https://github.com/SolomonDAOrg/dao-proposals](https://github.com/SolomonDAOrg/dao-proposals)
