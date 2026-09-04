@@ -39,10 +39,10 @@ to support the market directly. SOLO's futarchy AMM currently contains
 giving it the largest liquidity base of any project in the MetaDAO ecosystem, including META itself.
 That depth is sufficient to support active trading independently of the Meteora position.
 
-Meanwhile, the Meteora position leaves approximately 900,000 treasury-owned SOLO in a single-sided
-position that mechanically supplies inventory as demand increases. The position was useful when
-conventional market visibility was the priority. With that constraint resolved, it now fragments
-trading across venues and limits how directly the market can respond to new demand.
+Meanwhile, the Meteora position leaves approximately 900,000 treasury-owned SOLO across price ranges
+programmed when the pool was created. The position was useful when conventional market visibility
+was the priority. With that constraint resolved, it now fragments trading across venues and limits
+how directly the market can respond to new demand.
 
 That structure is poorly matched to Solomon's next phase. The public launch is expected to bring new
 product activity, partnerships, distribution, and broader market attention. Removing the legacy
@@ -70,12 +70,10 @@ will require separate governance approval.
   through ordinary pool activity
 - **Assets to Be Received:** All SOLO and USDC attributable to the DAO's liquidity position at
   execution
-- **Destination:** Company Treasury Vault at
-  `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`
+- **Destination:** Company Treasury Vault at `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`
 - **SOLO Mint:** `SoLo9oxzLDpcq1dpqAgMwgce5WqkRDtNXK7EPnbmeta`
 - **USDC Mint:** `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`
 - **Execution Method:** Standard Meteora DAMM v2 withdrawal instructions followed by transfer to the
-  Company Treasury Vault
 - **Future Use:** Potential broader exchange access, professional market-making arrangements, new
   trading venues, ecosystem rewards, and other strategic initiatives, subject in every case to
   separate governance approval
@@ -115,7 +113,8 @@ Withdrawn Assets under this proposal.
 Resolved further, that if the position contains both SOLO and USDC at the time of execution, the
 Treasury Executor shall withdraw both assets in full. No separate governance action is required
 merely because ordinary pool activity changes the composition of the position between proposal
-publication and execution.
+publication and execution. This will be executed through the admin function via MetaDAO and this
+proposal authorizes that specific action via the memo instruction attached to this proposal.
 
 Resolved further, that the Execution Bundle shall transfer all Withdrawn Assets promptly to the
 Company Treasury Vault at `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`.

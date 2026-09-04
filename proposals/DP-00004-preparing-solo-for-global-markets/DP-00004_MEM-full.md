@@ -10,7 +10,7 @@
 person or body handling the Withdrawn Assets or the Company Treasury Vault.
 
 **Effective date:** Upon ratification by Governance System and successful
-on-chain execution of the Execution Bundle.
+on-chain execution of the memo instruction attached to this proposal.
 
 **Authority note:** This Resolution authorizes only withdrawal of the DAO's
 liquidity position from the Pool and transfer of the Withdrawn Assets to the
@@ -58,8 +58,8 @@ This Resolution does two things:
 ## 2. Operative rule
 
 This is normative text proposed for adoption by Governance System. If (and
-only if) it is adopted and the Execution Bundle executes successfully, the
-operative clauses below are effective as stated.
+only if) it is adopted and the memo instruction attached to this proposal
+executes successfully, the operative clauses below are effective as stated.
 
 ---
 
@@ -69,10 +69,11 @@ operative clauses below are effective as stated.
    `8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`.
 
 2. **"Execution Bundle"** means the on-chain instructions that implement the
-   withdrawal and transfer authorized by this Resolution.
+   withdrawal and transfer authorized by this Resolution through the admin
+   function via MetaDAO.
 
 3. **"Governance System"** means the on-chain mechanism by which this
-   Resolution is adopted and executed.
+   Resolution is adopted and the attached memo instruction is executed.
 
 4. **"Pool"** means the Meteora DAMM v2 SOLO-USDC pool on Solana mainnet-beta
    at `2zsbECzM7roqnDcuv2TNGpfv5PAnuqGmMo5YPtqmUz5p`.
@@ -124,10 +125,10 @@ including META itself. That depth is sufficient to support active trading
 independently of the Meteora position.
 
 Meanwhile, the Meteora position leaves approximately 900,000 treasury-owned
-SOLO in a single-sided position that mechanically supplies inventory as
-demand increases. The position was useful when conventional market visibility
-was the priority. With that constraint resolved, it now fragments trading
-across venues and limits how directly the market can respond to new demand.
+SOLO across price ranges programmed when the pool was created. The position
+was useful when conventional market visibility was the priority. With that
+constraint resolved, it now fragments trading across venues and limits how
+directly the market can respond to new demand.
 
 That structure is poorly matched to Solomon's next phase. The public launch is
 expected to bring new product activity, partnerships, distribution, and
@@ -179,16 +180,19 @@ shall be treated as Withdrawn Assets under this Resolution.
 execution, the Treasury Executor shall withdraw both assets in full. No
 separate governance action is required merely because ordinary pool activity
 changes the composition of the position between proposal publication and
-execution.
+execution. This will be executed through the admin function via MetaDAO and
+this Resolution authorizes that specific action via the memo instruction
+attached to this proposal.
 
 ### 6.3 Transfer instruction
 
 **RESOLVED:** The Execution Bundle shall transfer all Withdrawn Assets promptly
-to the Company Treasury Vault.
+to the Company Treasury Vault at
+`8GVq1srBAZBsCeYpwdKUwEXzDffwAE5xSLWB1ec2gerr`.
 
-Informative note (non-binding): The stated execution method is standard
-Meteora DAMM v2 withdrawal instructions followed by transfer to the Company
-Treasury Vault.
+Informative note (non-binding): Execution through the admin function via
+MetaDAO will use standard Meteora DAMM v2 withdrawal instructions followed
+by transfer to the Company Treasury Vault.
 
 ---
 
